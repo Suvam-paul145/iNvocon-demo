@@ -1,2 +1,2 @@
-# iNvocon-demo
+# InnovoCon-demo
 My repo of testing HAckNEX 
