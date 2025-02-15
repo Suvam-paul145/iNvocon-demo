@@ -1,92 +1,307 @@
-body {
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+/* Base Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: "Poppins", sans-serif;
     background-color: #e3f2fd;
-}
-
-.container {
-    background: white;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  /* Container */
+  .home-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+  }
+  
+  /* Header Styles */
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px 0;
+  }
+  
+  .logo {
+    width: 150px;
+    max-width: 100%;
+  }
+  
+  .nav {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .nav-item {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+  }
+  
+  .dropdown {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .icon-expand {
+    width: 16px;
+    margin-left: 5px;
+  }
+  
+  .header-actions {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .btn {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #0288d1;
+    color: #fff;
+    font-weight: 600;
+    transition: background 0.3s ease;
+  }
+  
+  .btn:hover {
+    background: #0277bd;
+  }
+  
+  .login-btn {
+    background: transparent;
+    color: #0288d1;
+    border: 1px solid #0288d1;
+  }
+  
+  .login-btn:hover {
+    background: #0288d1;
+    color: #fff;
+  }
+  
+  .user-icon {
+    width: 35px;
+    border-radius: 50%;
+  }
+  
+  /* Banner Section */
+  .banner {
+    position: relative;
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .banner-bg {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+  }
+  
+  .banner-text h1 {
+    font-size: 2.5rem;
+  }
+  
+  .banner-text h2 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+  }
+  
+  /* Chatbot Widget */
+  .chatbot {
+    position: absolute;
+    bottom: 10%;
+    right: 5%;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 15px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  }
+  
+  .chatbot-bg {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .chatbot-text {
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+  
+  .chatbot-divider {
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    margin-top: 5px;
+  }
+  
+  /* Quick Access Section */
+  .features {
+    margin: 30px 0;
+    padding: 15px;
+    background: #fff;
+    border-radius: 10px;
+  }
+  
+  .section-title {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+  
+  .quick-access {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+  }
+  
+  .quick-item {
+    background: #f7f7f7;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    flex: 1 1 220px;
+    max-width: 250px;
+  }
+  
+  .quick-item h4 {
+    margin: 10px 0;
+    font-size: 1.2rem;
+  }
+  
+  .feature-icon {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    margin: 0 auto;
+  }
+  
+  /* Benefits and Features Grid */
+  .benefits {
+    margin: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: flex-start;
+  }
+  
+  .benefits-text {
+    flex: 1 1 300px;
+    background: #fff;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-    width: 320px;
-    text-align: center;
-}
-
-.sticker {
-    font-size: 50px;
-}
-
-h2 {
+  }
+  
+  .benefits-text h3 {
     margin-bottom: 10px;
-}
-
-input {
-    width: 100%;
-    padding: 10px;
-    margin: 8px 0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-input::placeholder {
-    color: #aaa;
-}
-
-.btn {
-    width: 100%;
-    padding: 10px;
-    background: #0288d1;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-}
-
-.btn:hover {
-    background: #0277bd;
-}
-
-.options {
-    display: flex;
-    justify-content: space-between;
-    font-size: 14px;
-    margin-top: 10px;
-}
-
-.options a {
-    text-decoration: none;
-    color: #007bff;
-}
-
-.options a:hover {
-    text-decoration: underline;
-}
-
-.social {
-    margin-top: 15px;
-}
-
-.social button {
-    width: 100%;
-    padding: 10px;
-    margin-top: 5px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-weight: bold;
-}
-
-.google {
-    background: #db4437;
-    color: white;
-}
-
-.signup {
-    margin-top: 15px;
-    font-size: 14px;
-}
+    font-size: 1.6rem;
+  }
+  
+  .features-grid {
+    flex: 2 1 500px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 15px;
+  }
+  
+  .feature-card {
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .feature-card h4 {
+    margin-bottom: 8px;
+    font-size: 1.2rem;
+  }
+  
+  /* Footer */
+  .footer {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 0.9rem;
+    color: #777;
+  }
+  
+  /* General Responsive Image Rules */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    .header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .nav {
+      margin-top: 10px;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+  
+    .header-actions {
+      margin-top: 10px;
+      width: 100%;
+      justify-content: space-between;
+    }
+  
+    .banner-text h1 {
+      font-size: 2rem;
+    }
+  
+    .banner-text h2 {
+      font-size: 1.2rem;
+    }
+  
+    .chatbot {
+      width: 200px;
+      right: 5%;
+      bottom: 5%;
+    }
+  
+    .quick-access {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .banner-text h1 {
+      font-size: 1.8rem;
+    }
+  
+    .banner-text h2 {
+      font-size: 1rem;
+    }
+  
+    .btn {
+      font-size: 14px;
+      padding: 6px 10px;
+    }
+  }
+  
