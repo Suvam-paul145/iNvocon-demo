@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Home Page</title>
+  <style>
+    /* Reset and Base Styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Arial', sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background: #fafafa;
+    }
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    /* Container */
+    .home-page {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    /* Header and Navigation */
+    header {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 0;
+    }
+    .logo {
+      max-width: 120px;
+    }
+    .nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      align-items: center;
+    }
+    .nav-item {
+      padding: 8px 12px;
+      font-size: 1rem;
+      background: #f0f0f0;
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+    .nav-item:hover {
+      background: #ddd;
+    }
+    .user-profile {
+      max-width: 50px;
+      border-radius: 50%;
+    }
+
+    /* Main Banner */
+    .banner {
+      width: 100%;
+      height: auto;
+      margin: 20px 0;
+    }
+    .heading {
+      text-align: center;
+      font-size: 2.5rem;
+      background: radial-gradient(circle, #b200e8, #3463ae 90%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 20px 0;
+    }
+    .subheading {
+      text-align: center;
+      font-size: 1.75rem;
+      color: #fff5f5;
+      margin-bottom: 20px;
+    }
+
+    /* Chatbot Section */
+    .chatbot-section {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      margin: 20px 0;
+      gap: 20px;
+      text-align: center;
+    }
+    .chatbot-section img {
+      max-width: 150px;
+      height: auto;
+      border-radius: 50%;
+    }
+    .chatbot-section h2 {
+      font-size: 1.75rem;
+      margin-bottom: 10px;
+    }
+
+    /* Quick Access Section */
+    .quick-access {
+      background: linear-gradient(98.79deg, rgba(142,138,138,0.15), rgba(53,64,224,0.15));
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+      padding: 20px;
+      margin: 20px 0;
+    }
+    .quick-access h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 2rem;
+    }
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .grid-item {
+      background: rgba(255, 255, 255, 0.9);
+      border-radius: 10px;
+      padding: 15px;
+      text-align: center;
+      transition: transform 0.3s;
+    }
+    .grid-item:hover {
+      transform: translateY(-5px);
+    }
+    .grid-item img {
+      max-width: 80px;
+      margin-bottom: 10px;
+    }
+    .grid-item h3 {
+      font-size: 1.25rem;
+      margin-bottom: 8px;
+    }
+    .grid-item p {
+      font-size: 0.9rem;
+      color: #666;
+    }
+
+    /* Group Section (Placeholder for additional content) */
+    .group-section {
+      margin: 20px 0;
+      padding: 20px;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .group-section h2 {
+      margin-bottom: 10px;
+      font-size: 2rem;
+    }
+    .group-section p {
+      font-size: 1rem;
+      color: #555;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 20px 0;
+      font-size: 0.9rem;
+      color: #777;
+    }
+
+    /* Responsive Adjustments */
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+        text-align: center;
+      }
+      .nav {
+        justify-content: center;
+      }
+      .heading {
+        font-size: 2rem;
+      }
+      .subheading {
+        font-size: 1.5rem;
+      }
+      .chatbot-section h2 {
+        font-size: 1.5rem;
+      }
+      .quick-access h2 {
+        font-size: 1.75rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="home-page">
+    <!-- Header Section -->
+    <header>
+      <img src="Logo.png" alt="Logo" class="logo" />
+      <nav class="nav">
+        <div class="nav-item">Home</div>
+        <div class="nav-item">Courses</div>
+        <div class="nav-item">Resources</div>
+        <div class="nav-item">Login</div>
+        <div class="nav-item">Sign Up</div>
+      </nav>
+      <img src="User_Profile.svg" alt="User Profile" class="user-profile" />
+    </header>
+
+    <!-- Banner / Background Image -->
+    <img src="background-image 1.png" alt="Background" class="banner" />
+
+    <!-- Main Headings -->
+    <div class="heading">All Kids Are Best</div>
+    <div class="subheading">Explorer In The World</div>
+
+    <!-- Chatbot Section -->
+    <section class="chatbot-section">
+      <div>
+        <h2>How May I Help You?</h2>
+        <img src="First_background-image.png" alt="Chatbot" />
+      </div>
+      <div>
+        <img src="Line 1.svg" alt="Decorative Line" />
+      </div>
+    </section>
+
+    <!-- Quick Access Section -->
+    <section class="quick-access">
+      <h2>Quick Access</h2>
+      <div class="grid-container">
+        <div class="grid-item">
+          <img src="My batches icon 2.svg" alt="My Courses" />
+          <h3>My Courses</h3>
+          <p>View the courses in which you are taken</p>
+        </div>
+        <div class="grid-item">
+          <img src="Vector.svg" alt="Mentorship" />
+          <h3>Mentorship</h3>
+          <p>1:1 mentorship for 24 hrs of teaching and help assistance</p>
+        </div>
+        <div class="grid-item">
+          <img src="Dashboard 1.svg" alt="Dashboard" />
+          <h3>Dashboard</h3>
+          <p>Click here to view your performance based dashboard</p>
+        </div>
+        <div class="grid-item">
+          <img src="Group.svg" alt="My Doubts" />
+          <h3>My Doubts</h3>
+          <p>View the lists of the doubts asked by you</p>
+        </div>
+        <div class="grid-item">
+          <img src="feature2_3d@2x 1.png" alt="Demo Class" />
+          <h3>Demo Class</h3>
+          <p>You can visit demo classes for a particular class</p>
+        </div>
+        <div class="grid-item">
+          <img src="Import.svg" alt="Downloads" />
+          <h3>Downloads</h3>
+          <p>Download resources for better learning</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Group Section (Additional content area) -->
+    <section class="group-section">
+      <h2>Your Benefits</h2>
+      <p>
+        With a dedicated team of experienced educators, state-of-the-art facilities, and a comprehensive curriculum, we aim to lay a strong foundation for your child's bright future.
+      </p>
+    </section>
+
+    <!-- (Additional sections like image groups, sliders, etc. can be added here following similar responsive patterns) -->
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2025 Your Company. All rights reserved.</p>
+    </footer>
+  </div>
+</body>
+</html>
