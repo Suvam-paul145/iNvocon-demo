@@ -1,0 +1,1155 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.about-us-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: coral;
+    width: 100%;
+    height: 70px;
+    overflow: hidden;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    filter: drop-shadow(0px 0px 10px black);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.platform-logo{
+    border-radius: 100%;
+    border: 1px solid blue;
+    width: 48px;
+    height: 48px;
+    margin-left: 30px;
+}
+
+.home {
+    position: relative;
+    font-weight: 900;
+    cursor: pointer;
+    margin-left: 130px;
+    margin-right: 1.3vw;
+}
+.courses{
+    position: relative;
+    margin-right: 1.3vw;
+    font-weight: bold;
+}
+.home:hover{
+    color: #1b1b1b;
+    background: #fff;
+}
+.courses:hover{
+    color: #1b1b1b;
+    background: #fff;
+}
+
+.help{
+    border: 1px solid red;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    background: linear-gradient(to right,red,tomato);
+    filter: drop-shadow(0px 0px 7px black);
+    cursor: pointer;
+    right: 10px;
+}
+.help:hover{
+    color: #1b1b1b;
+    background: #fff;
+}
+.login:hover{
+    color: #1b1b1b;
+    background: #fff;
+}
+.login{
+    margin-left: 200px;
+    border: 1px solid red;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    background: linear-gradient(to right,red,tomato);
+    filter: drop-shadow(0px 0px 7px black);
+    cursor: pointer;
+    right: 10px;
+}
+
+.about-us1 {
+    position: relative;
+    color: rgb(0, 0, 0);
+    text-shadow: 0px 0px 55px black;
+    cursor: pointer;
+    font-size: 70px;
+    text-decoration: underline;
+    top: -29px;
+    /* left: 50%; */
+}
+.contact-us {
+    position: relative;
+    color: black ;
+    cursor: pointer;
+    font-weight: 900;
+    right: 5px;
+    cursor: pointer;
+}
+.about-us11{
+    position: relative;
+    color: #000;
+    cursor: pointer;
+    font-weight: 900;
+}
+.home-parent {
+    position: relative;
+    left: calc(50% - 164.5px);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: space-around; */
+    gap: 10px;
+    font-size: 18px;
+    font-family: Inter;
+    left: 20px;
+    /* background-color: coral; */
+    width: auto;
+    height: auto;
+    overflow: visible;
+    padding: 10px 20px;
+    white-space: nowrap;
+}
+.postive-caring-relationships-t-icon {
+    position: absolute;
+    top: 110px;
+    left: 11px;
+    width: 98.5%;
+    height: 530px;
+    object-fit: cover;
+    border-radius: 3vw;
+    filter: drop-shadow(0px 0px 15px black);
+}
+.about-us-wrapper {
+    height: 199px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    z-index: 0;
+    opacity: 1;
+}
+.welcome-to-grameen1 {
+    /* left: 2%; */
+    font-size: 15px;
+    color: white;
+    padding: 25px;
+    line-height: 1.6;
+    background: rgba(0, -33, 0, 1);
+    padding: 15px;
+    position: relative;
+    top: -154px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+    opacity: 1;
+}
+.welcome-to-grameen {
+    margin: 0;
+    color: black;
+}
+.frame-index5 {
+    margin: 0;
+    color: black;
+}
+.tania5 {
+    margin: 0;
+    color: black;
+}
+.welcome-to-grameen-container {
+    position: absolute;
+    height: 128.64%;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    display: inline-block;
+    opacity: 0.68;
+}
+.welcome-to-grameen-shiksha-a {
+    width: 532px;
+    position: absolute;
+    margin: 0 !important;
+    top: 226px;
+    left: 170px;
+    height: 184px;
+    z-index: 1;
+    font-size: 15px;
+    font-family: 'ADLaM Display';
+}
+.frame-parent {
+    position: absolute;
+    top: 211px;
+    left: 284px;
+    width: 872px;
+    height: 410px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 96px;
+    color: #fff;
+}
+.frame-parent img{
+    height: 100px;
+    width: 100%;
+
+}
+.frame-child {
+    width: 309px;
+    position: absolute;
+    margin: 0 !important;
+    top: 98px;
+    left: 0px;
+    background-color: #f3f25b;
+    height: 3px;
+    z-index: 0;
+}
+.ui-ux-designer {
+    position: relative;
+    font-size: 30px;
+    white-space: pre-wrap;
+    z-index: 1;
+    line-height: 1;
+}
+.frame-item {
+    width: 100px;
+    position: relative;
+    height: 100px;
+    z-index: 2;
+}
+.rectangle-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    gap: 10px;
+}
+.frame-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 25px;
+}
+.frame-wrapper {
+    position: absolute;
+    top: 224px;
+    left: 19px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.vector-icon {
+    position: absolute;
+    top: 150px;
+    left: 850px;
+    width: 250px;
+    height: 300px;
+    border: 5px solid #42bcfe;
+    border-radius: 10px;
+    filter: drop-shadow(0px 0px 20px #09a9ff);
+}
+.group-child {
+    position: absolute;
+    top: 700px;
+    left: 19px;
+    width: 250px;
+    height: 300px;
+    border: 5px solid #42bcfe;
+    border-radius: 10px;
+    filter: drop-shadow(0px 0px 20px #09a9ff);
+}
+.anita-image{
+    position: absolute;
+    top: 1690px;
+    left: 19px;
+    width: 270px;
+    height: 300px;
+    border: 5px solid #42bcfe;
+    border-radius: 10px;
+    filter: drop-shadow(0px 0px 20px #09a9ff);
+}
+.tania-image{
+    position: absolute;
+    top: 2170px;
+    left: 850px;
+    width: 270px;
+    height: 280px;
+    border: 5px solid #42bcfe;
+    border-radius: 10px;
+    filter: drop-shadow(0px 0px 20px #09a9ff);
+}
+
+.frame-inner {
+    width: 309px;
+    position: absolute;
+    margin: 0 !important;
+    top: 98px;
+    left: 310px;
+    background-color: #f3f25b;
+    height: 3px;
+    z-index: 0;
+}
+.frame-index3 {
+    width: 309px;
+    position: absolute;
+    margin: 0 !important;
+    top: 90px;                     
+    left: 310px;
+    background-color: #f3f25b;
+    height: 3px;
+    z-index: 0;
+}
+.tania3 {
+    width: 309px;
+    position: absolute;
+    margin: 0 !important;
+    top: 1010px;
+    left: 0px;
+    background-color: #f3f25b;
+    height: 3px;
+    z-index: 0;
+}
+.frontend-designer {
+    margin: 0;
+    white-space: pre-wrap;
+    position: relative;
+    font-size: 30px;
+    white-space: pre-wrap;
+    z-index: 1;
+    line-height: 1.5;
+}
+.frame-index6 {
+    margin: 0;
+    white-space: pre-wrap;
+    position: relative;
+    font-size: 30px;
+    white-space: pre-wrap;
+    z-index: 1;
+    line-height: 1.5;
+}
+.tania6 {
+    margin: 0;
+    white-space: pre-wrap;
+    position: relative;
+    font-size: 30px;
+    white-space: pre-wrap;
+    z-index: 1;
+    line-height: 1.5;
+}
+.content-creator-idea-container {
+    width: 618px;
+    position: relative;
+    font-weight: 600;
+    display: inline-block;
+    flex-shrink: 0;
+    z-index: 1;
+}
+.frame-index4 {
+    width: 618px;
+    position: relative;
+    font-weight: 600;
+    display: inline-block;
+    flex-shrink: 0;
+    z-index: 1;
+}
+.tania4 {
+    position: relative;
+    font-size: 30px;
+    z-index: 1;
+    margin: 0;
+    white-space: pre-wrap;
+    line-height: 1;
+    top: 970px;
+}
+.frame-child1 {
+    width: 100px;
+    position: relative;
+    height: 100px;
+    overflow: hidden;
+    flex-shrink: 0;
+    z-index: 2;
+}
+.rectangle-group {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: relative;
+    gap: 10px;
+}
+.frame-index7 {
+    width: 100px;
+    position: relative;
+    height: 100px;
+    overflow: hidden;
+    flex-shrink: 0;
+    z-index: 2;
+}
+.frame-index2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: relative;
+    gap: 10px;
+}
+.tania7 {
+    width: 100px;
+    position: relative;
+    height: 100px;
+    overflow: hidden;
+    flex-shrink: 0;
+    z-index: 2;
+}
+.tania2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    gap: 10px;
+}
+.im-suvam-paul {
+    width: 697px;
+    position: relative;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: Lato;
+    color: saddlebrown;
+    display: inline-block;
+    height: 102px;
+    flex-shrink: 0;
+}
+
+.all-name{
+    border: 1px solid red;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 30px;
+    background: linear-gradient(to right,red,tomato);
+}
+
+.suvam-name-positioning{
+    position: relative;
+    left: 843px;
+}
+
+.sania-name-positioning{
+    position: relative;
+    top: 100px;
+    right: 910px;
+}
+
+.atish-name-positioning{
+    position: relative;
+    left: 850px;
+    top: 30px;
+}
+
+.anita-name-positioning{
+    position: relative;
+    top: 100px;
+    right: 915px;
+}
+.tania-name-positioning{
+    position: relative;
+    top: 1070px;
+    left: 870px;
+}
+
+.links{
+    display: flex;
+}
+
+.linkedin-logo{
+    border: 1px solid red;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-right: 1.2vw;
+    filter: drop-shadow(0px 0px 10px black);
+}
+
+.suvam-atish-tania-link-position{
+    position: relative;
+    bottom: 80px;
+}
+
+.sania-anita-link-position{
+    position: relative;
+    bottom: 70px;
+    right: 30px;
+}
+.frame-parent1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 25px;
+}
+.frame-index1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 25px;
+}
+.tania1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 25px;
+}
+.frame-div {
+    position: absolute;
+    top: 700px;
+    left: 478px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    text-align: right;
+}
+.frame-index {
+    position: absolute;
+    top: 1700px;           
+    left: 478px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    text-align: right;
+}
+.tania {
+    position: absolute;
+    top: 1230px;
+    left: 19px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.front-end-developer {
+    position: relative;
+    font-size: 30px;
+    z-index: 1;
+    margin: 0;
+    white-space: pre-wrap;
+    line-height: 1;
+}
+.im-sania{
+    width: 697px;
+    position: relative;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: Lato;
+    color: saddlebrown;
+    display: inline-block;
+    height: auto;
+    flex-shrink: 0;
+    text-align: left;
+    margin: 0 auto 0 0;
+}
+.im-anita{
+    width: 697px;
+    position: relative;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: Lato;
+    color: saddlebrown;
+    display: inline-block;
+    height: auto;
+    flex-shrink: 0;
+    text-align: left;
+    margin: 0 auto 0 0;
+}
+.im-tania{
+    width: 697px;
+    position: relative;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: Lato;
+    color: saddlebrown;
+    display: inline-block;
+    height: 102px;
+    flex-shrink: 0;
+    top: 1000px;
+}
+
+.frame-wrapper1 {
+    position: absolute;
+    top: 1230px;
+    left: 19px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.frame {
+    position: absolute;
+    top: 151px;
+    left: 838px;
+    border-radius: 13px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 287px;
+    height: 341px;
+    overflow: hidden;
+}
+.frame-icon {
+    position: absolute;
+    top: 206px;
+    left: 662px;
+    width: 65.1px;
+    height: 80px;
+    overflow: hidden;
+}
+.frame-icon1 {
+    position: absolute;
+    top: 757px;
+    left: 40px;
+    width: 65.1px;
+    height: 80px;
+    overflow: hidden;
+}
+.frame-icon2 {
+    position: absolute;
+    top: 189px;
+    left: 970px;
+    width: 36.2px;
+    height: 35px;
+    overflow: hidden;
+}
+.frame-icon3 {
+    position: absolute;
+    top: 740px;
+    left: 348px;
+    width: 36.2px;
+    height: 35px;
+    overflow: hidden;
+}
+.whatsapp-image-2024-09-07-at-2 {
+    position: absolute;
+    top: 665px;
+    left: 0px;
+    width: 521.8px;
+    height: 512.2px;
+    object-fit: contain;
+}
+.frame-icon4 {
+    position: absolute;
+    top: 533px;
+    left: 923px;
+    width: 213.8px;
+    height: 67.5px;
+    overflow: hidden;
+}
+.frame-icon5 {
+    position: absolute;
+    top: 1084px;
+    left: 301px;
+    width: 213.8px;
+    height: 67.5px;
+    overflow: hidden;
+}
+.group-item {
+    position: absolute;
+    top: 1180px;
+    left: 850px;
+    width: 270px;
+    height: 280px;
+    border: 5px solid #42bcfe;
+    border-radius: 10px;
+    filter: drop-shadow(0px 0px 20px #09a9ff);
+}
+.preparing-students-to {
+    position: relative;
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    left: 10px;
+    /* border: 1px solid red; */
+}
+.preparing-students-to1 {
+    position: relative;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    right: 25%;
+
+}
+.frame-icon6 {
+    width: 600px;
+    position: relative;
+    height: 40px;
+    overflow: hidden;
+    flex-shrink: 0;
+    right: 25%;
+    text-align: center;
+}
+.frame-icon61 {
+    width: 600px;
+    position: relative;
+    height: 40px;
+    overflow: hidden;
+    flex-shrink: 0;
+    text-align: center;
+}
+.frame-icon62 {
+    width: 600px;
+    position: relative;
+    height: 40px;
+    overflow: hidden;
+    flex-shrink: 0;
+    text-align: center;
+}
+
+.centering-div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+.preparing-students-to-achieve-parent {
+    position: absolute;
+    top: 0px;
+    /* left: calc(50% - 350.35px); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    font-size: 45px;
+    /* border: 2px solid red; */
+    background: linear-gradient(to right, #33c5d8,#003484);
+    filter: drop-shadow(5px 5px 10px black);
+    padding-left: 70px;
+    padding-right: 90px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 35px;
+}
+.frame-group {
+    position: absolute;
+    top: 760px;
+    left: 113px;
+    width: 1214.7px;
+    height: 600.2px;
+    font-size: 36px;
+}
+.python{
+    position: relative;
+    font-size: 30px;
+    z-index: 1;
+    margin: 0;
+    white-space: pre-wrap;
+    line-height: 1;
+}
+.im-atish{
+    width: 697px;
+    position: relative;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: Lato;
+    color: saddlebrown;
+    display: inline-block;
+    height: 102px;
+    flex-shrink: 0;
+}
+.team-members-parent {
+    position: absolute;
+    top: 0px;
+    left: calc(50% - 154.23px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+    font-size: 45px;
+    font-family: 'Source Serif Pro';
+}
+.whatsapp-image-2024-09-08-at-1 {
+    position: absolute;
+    top: 0px;
+    left: 14.62px;
+    width: 301.4px;
+    height: 329.9px;
+    object-fit: cover;
+}
+.group-inner {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 315.5px;
+    height: 131.7px;
+}
+.vector-parent {
+    position: absolute;
+    top: 268.27px;
+    left: 0px;
+    width: 315.7px;
+    height: 131.7px;
+}
+.whatsapp-image-2024-09-08-at-1-parent {
+    position: absolute;
+    top: 145px;
+    left: 454px;
+    width: 316px;
+    height: 400px;
+    font-size: 32px;
+}
+.whatsapp-image-2024-09-08-at-11 {
+    position: absolute;
+    top: 0px;
+    left: 21px;
+    width: 224px;
+    height: 361px;
+    object-fit: cover;
+}
+.group-child1 {
+    position: relative;
+    /* top: -1000px; */
+    bottom: 1000px;
+    left: 0px;
+    width: 251.1px;
+    height: 111.7px;
+}
+
+.vector-group {
+    position: absolute;
+    top: 288.35px;
+    left: 0px;
+    width: 251.1px;
+    height: 111.7px;
+}
+.whatsapp-image-2024-09-08-at-1-group {
+    position: absolute;
+    top: 145px;
+    left: 0px;
+    width: 251.1px;
+    height: 400px;
+}
+.whatsapp-image-2024-09-16-at-1 {
+    position: absolute;
+    top: 0px;
+    left: 20.96px;
+    width: 201px;
+    height: 361.3px;
+    object-fit: cover;
+}
+.tanmoy-dey-wrapper {
+    position: absolute;
+    top: 33.65px;
+    left: 72px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.whatsapp-image-2024-09-16-at-1-parent {
+    position: absolute;
+    top: 145px;
+    left: 985px;
+    width: 251.1px;
+    height: 400px;
+}
+.group-div {
+    position: absolute;
+    top: 25px;
+    left: calc(50% - 612px);
+    width: 1236.1px;
+    height: 545px;
+    font-size: 24px;
+}
+.im-tanmoy-dey {
+    position: absolute;
+    top: 570px;
+    right: calc(50% - 612px);
+    display: inline-block;
+    width: 375px;
+    height: 125px;
+    text-align: center;
+}
+.frame-child2 {
+    position: absolute;
+    top: 707px;
+    left: 524px;
+    border-radius: 69px;
+    background-color: #e0ffba;
+    width: 406px;
+    height: 70px;
+}
+.frame-child3 {
+    position: absolute;
+    top: 707px;
+    left: 61px;
+    border-radius: 69px;
+    background-color: #baffef;
+    width: 406px;
+    height: 70px;
+}
+.frame-child4 {
+    position: absolute;
+    top: 707px;
+    left: 1019px;
+    border-radius: 69px;
+    background-color: #c9eaff;
+    width: 406px;
+    height: 70px;
+}
+.group-parent {
+    position: absolute;
+    top: 2567px;
+    left: 0px;
+    background-color: #fff;
+    width: 100%;
+    height: 797px;
+    overflow: hidden;
+    font-size: 16px;
+    font-family: Lato;
+}
+
+.why-its-works-parent {
+    position: relative;
+    bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+    /* border: 1px solid red; */
+    padding-left: 50px;
+    padding-right: 70px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 35px;
+    background: linear-gradient(to right, #33c5d8,#003484);
+    filter: drop-shadow(5px 5px 10px black);
+}
+.frame-icon9 {
+    width: 109.1px;
+    position: relative;
+    height: 100px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.students-practice-at {
+    width: 334px;
+    position: relative;
+    font-size: 18px;
+    font-family: Lato;
+    text-align: center;
+    display: inline-block;
+}
+.personalized-learning-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.frame-parent5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 24px;
+}
+.frame-icon10 {
+    width: 129.6px;
+    position: relative;
+    height: 100px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.frame-icon11 {
+    width: 131.5px;
+    position: relative;
+    height: 100px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.frame-parent4 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 50px;
+    font-size: 24px;
+}
+.frame-parent3 {
+    position: absolute;
+    top: calc(50% + 1498px);
+    left: calc(50% - 551px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-size: 45px;
+}
+.about-us-item {
+    position: absolute;
+    top: 4008px;
+    left: 0px;
+    background-color: #f4ed5e;
+    width: 100%;
+    height: 10px;
+}
+.idea-formation-content {
+    position: absolute;
+    top: 3296px;
+    left: 51px;
+    font-family: 'ADLaM Display';
+    text-align: center;
+    display: inline-block;
+    width: 426px;
+    height: 26px;
+}
+.full-stack-developer {
+    position: absolute;
+    top: 3293px;
+    left: 517px;
+    font-family: 'ADLaM Display';
+    text-align: center;
+    display: inline-block;
+    width: 426px;
+    height: 26px;
+}
+.professional-designer {
+    position: absolute;
+    top: 3296px;
+    left: 1009px;
+    font-family: 'ADLaM Display';
+    text-align: center;
+    display: inline-block;
+    width: 426px;
+    height: 26px;
+}
+.about-us {
+    width: 100%;
+    position: relative;
+    background-color: powderblue;
+    height: 4128px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 20px;
+    color: #000;
+    font-family: 'Source Serif Pro';
+}
+.courses{
+    cursor: pointer;
+}
+.tania-link-position{
+    position: relative;
+    bottom: 80px;
+    right: -20px;
+    top: 950px;
+}
+.fb-logo{
+    height: 50px;
+    width: 50px;
+    border: 1px solid red;
+    border-radius: 100%;
+    margin-right: 1.2vw;
+    filter: drop-shadow(0px 0px 10px black);
+    top: 950px;
+}
+
+.hamburger{
+    display: none;
+}
+    /* @media screen and (max-width: 800px){
+
+        .about-us-child{
+            position: relative;
+            height: 15vw;
+        }
+        .contact-us{
+            position: relative;
+            right: 5vw;
+
+        }
+    
+        .platform-logo{
+            display: flex;
+            position: relative;
+            right: 10vw;
+            height: 10vw;
+            width: 10vw;
+        }
+    
+        .all{
+            display: none;
+        }
+    
+        .hamburger{
+            display: flex;
+            height: 10vw;
+            width: 10vw;
+            position: relative;
+            left: 87vw;
+            top: -12vw;
+        }
+    
+        .postive-caring-relationships-t-icon{
+            width: 95vw;
+            height: 60vw;
+        }
+    
+        .frame-parent{
+            position: relative;
+            top: 10vw;
+            right: -50vw;
+            right: 55vw;
+        }
+    
+        .about-us-wrapper,.about-us1{
+            font-size: 8vw;
+            top: 6vw;
+            left: -10vw;
+        }
+    
+        .welcome-to-grameen1{
+            font-size: 2.5vw;
+            position: relative;
+            left: 10vw;
+        }
+        button,.login,.help{
+            display: none;
+        }
+        
+    }
+ */
+
+    .tania{
+        position: relative;
+        top: 500px;
+    }
+
+    .tania1{
+        position: relative;
+        top: 750px;
+        height: 0px;
+    }
