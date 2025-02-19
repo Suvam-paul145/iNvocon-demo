@@ -1,282 +1,1514 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Responsive Home Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1, width=device-width">
+
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alice:wght@400&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Maiandra GD:wght@400&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Marcellus SC:wght@400&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Aclonica:wght@400&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Aubrey:wght@400&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Afacad:wght@400&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jaro:wght@400&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amaranth:wght@400&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amethysta:wght@400&display=swap" />
+
   <style>
     /* Reset and Base Styles */
-    * {
+     *{
       margin: 0;
       padding: 0;
       box-sizing: border-box;
-    }
+     }
     body {
-      font-family: 'Arial', sans-serif;
-      line-height: 1.6;
-      color: #333;
-      background: #fafafa;
-    }
-    a {
-      text-decoration: none;
-      color: inherit;
+      margin: 0;
+      line-height: normal;
     }
 
-    /* Container */
-    .home-page {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 20px;
-    }
-
-    /* Header and Navigation */
-    header {
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      justify-content: space-between;
-      padding: 10px 0;
-    }
-    .logo {
-      max-width: 120px;
-    }
-    .nav {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 20px;
-      align-items: center;
-    }
-    .nav-item {
-      padding: 8px 12px;
-      font-size: 1rem;
-      background: #f0f0f0;
-      border-radius: 5px;
-      transition: background 0.3s;
-    }
-    .nav-item:hover {
-      background: #ddd;
-    }
-    .user-profile {
-      max-width: 50px;
-      border-radius: 50%;
-    }
-
-    /* Main Banner */
-    .banner {
+    .button-login-child {
+      position: absolute;
+      height: 100%;
       width: 100%;
-      height: auto;
-      margin: 20px 0;
+      top: 0%;
+      right: 0%;
+      bottom: 0%;
+      left: 0%;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 58px;
+      background-color: #ffc57c;
     }
+
+    .sign-up {
+      position: absolute;
+      width: 58.14%;
+      top: 20%;
+      left: 20.93%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .button-login {
+      position: absolute;
+      top: 33px;
+      left: 1177px;
+      backdrop-filter: blur(10px);
+      width: 129px;
+      height: 45px;
+      font-size: 24px;
+      font-family: Alice;
+    }
+
+    .button-sign-up-child {
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      top: 0%;
+      right: 0%;
+      bottom: 0%;
+      left: 0%;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 58px;
+      background: linear-gradient(90deg, #b4f8fd, #90f3f9);
+    }
+
+    .sign-up1 {
+      position: absolute;
+      width: 58.14%;
+      top: 24.44%;
+      left: 20.93%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .button-sign-up {
+      position: absolute;
+      top: 33px;
+      left: 1014px;
+      backdrop-filter: blur(10px);
+      width: 129px;
+      height: 45px;
+      font-size: 20px;
+      font-family: Alice;
+    }
+
+    .user-profile-icon {
+      position: absolute;
+      top: 0px;
+      left: 1326px;
+      width: 100px;
+      height: 100px;
+    }
+
+    .expand-right-icon {
+      position: absolute;
+      top: 10px;
+      left: 140px;
+      width: 38px;
+      height: 38px;
+      object-fit: contain;
+    }
+
+    .courses {
+      position: absolute;
+      top: 31px;
+      left: 529px;
+      width: 178px;
+      height: 50px;
+    }
+
+    .home {
+      position: absolute;
+      top: 31px;
+      left: 354px;
+      width: 167px;
+      height: 50px;
+    }
+
+    .shiksha-sahayak {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 296px;
+      height: 69px;
+    }
+
+    .home2 {
+      position: absolute;
+      top: 22px;
+      left: 85px;
+      width: 296px;
+      height: 69px;
+      font-family: 'Marcellus SC';
+    }
+
+    .resousces {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 167px;
+      height: 50px;
+    }
+
+    .expand-right-icon1 {
+      position: absolute;
+      top: 10px;
+      left: 167px;
+      width: 38px;
+      height: 38px;
+      object-fit: contain;
+    }
+
+    .resources {
+      position: absolute;
+      top: 31px;
+      left: 759px;
+      width: 205px;
+      height: 50px;
+    }
+
+    .logo-icon {
+      position: absolute;
+      top: 4px;
+      left: 0px;
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+    }
+
+    .button-login-parent {
+      position: absolute;
+      top: 0px;
+      left: 3px;
+      width: 1426px;
+      height: 104px;
+      font-size: 36px;
+      font-family: 'Maiandra GD';
+    }
+
+    .background-image-1-icon {
+      position: absolute;
+      top: 117px;
+      left: calc(50% - 720px);
+      width: 1440px;
+      height: 744px;
+      object-fit: cover;
+    }
+
     .heading {
-      text-align: center;
-      font-size: 2.5rem;
-      background: radial-gradient(circle, #b200e8, #3463ae 90%);
+      position: absolute;
+      top: 104px;
+      left: calc(50% - 541px);
+      font-size: 120px;
+      background: radial-gradient(50% 50% at 50% 50%, #b200e8, #3463ae 88.9%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
-      margin: 20px 0;
-    }
-    .subheading {
-      text-align: center;
-      font-size: 1.75rem;
-      color: #fff5f5;
-      margin-bottom: 20px;
-    }
-
-    /* Chatbot Section */
-    .chatbot-section {
       display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
       align-items: center;
-      margin: 20px 0;
-      gap: 20px;
-      text-align: center;
-    }
-    .chatbot-section img {
-      max-width: 150px;
-      height: auto;
-      border-radius: 50%;
-    }
-    .chatbot-section h2 {
-      font-size: 1.75rem;
-      margin-bottom: 10px;
+      justify-content: center;
+      width: 1083px;
+      height: 136px;
     }
 
-    /* Quick Access Section */
-    .quick-access {
-      background: linear-gradient(98.79deg, rgba(142,138,138,0.15), rgba(53,64,224,0.15));
+    .heading1 {
+      position: absolute;
+      top: 664px;
+      left: calc(50% - 715px);
+      font-size: 120px;
+      color: #fff5f5;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 1430px;
+      height: 153px;
+    }
+
+    .heading2 {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 303px;
+      height: 76px;
+    }
+
+    .first-background-image-icon {
+      position: absolute;
+      top: 11px;
+      left: 344px;
+      border-radius: 139px;
+      width: 99px;
+      height: 103px;
+      object-fit: cover;
+    }
+
+    .chatbot {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      width: 443px;
+      height: 114px;
+    }
+
+    .group-child {
+      position: absolute;
+      top: 57px;
+      left: 208px;
+      width: 168.3px;
+      height: 113.7px;
+      object-fit: contain;
+    }
+
+    .chatbot-parent {
+      position: absolute;
+      top: 905px;
+      left: 56px;
+      width: 443px;
+      height: 170.7px;
+      font-size: 40px;
+      color: #181818;
+      font-family: Aubrey;
+    }
+
+    .libray-1-icon {
+      position: absolute;
+      top: 861px;
+      right: 0px;
+      width: 478px;
+      height: 260px;
+      object-fit: cover;
+    }
+
+    .heading3 {
+      position: absolute;
+      top: 1041px;
+      left: calc(50% - 153px);
+      font-family: Afacad;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 303px;
+      height: 80px;
+      text-shadow: 0px 4px 4px #bdbdbd;
+    }
+
+    .heading5 {
+      position: absolute;
+      top: 0px;
+      left: 197px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 594px;
+      height: 80px;
+    }
+
+    .children-deserves-bright {
+      position: absolute;
+      top: 56px;
+      left: calc(50% - 231px);
+      font-size: 20px;
+      letter-spacing: 0.19em;
+      font-family: Poppins;
+      background: linear-gradient(#141414, #141414), #000;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 465px;
+      height: 33px;
+    }
+
+    .with-a-dedicated {
+      position: absolute;
+      top: 96px;
+      left: calc(50% - 494px);
+      font-size: 16px;
+      white-space: pre-wrap;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 988px;
+      height: 40px;
+    }
+
+    .heading-parent {
+      position: absolute;
+      top: 1813px;
+      left: 226px;
+      width: 988px;
+      height: 136px;
+    }
+
+    .personalized-student-dashboard {
+      position: absolute;
+      top: 24px;
+      left: 24px;
+    }
+
+    .a-gamified-dashboard {
+      position: absolute;
+      bottom: 17px;
+      left: calc(50% - 170px);
+      font-family: Inter;
+      display: flex;
+      align-items: center;
+      width: 359px;
+      height: 181px;
+    }
+
+    .personalized-student-dashboard-parent {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      border-radius: 17px;
+      background: linear-gradient(120.43deg, rgba(252, 246, 240, 0.3), rgba(251, 207, 165, 0.7));
+      border: 1px solid #000;
+      box-sizing: border-box;
+      width: 388px;
+      height: 260px;
+      overflow: hidden;
+    }
+
+    .adaptive-quizzes {
+      position: absolute;
+      top: 25px;
+      left: 25px;
+    }
+
+    .ai-powered-quizzes-that {
+      position: absolute;
+      bottom: 30px;
+      left: calc(50% - 169px);
+      font-family: Inter;
+      display: flex;
+      align-items: center;
+      width: 338px;
+      height: 181px;
+    }
+
+    .adaptive-quizzes-gamified-le-parent {
+      position: absolute;
+      top: 0px;
+      left: 910px;
+      border-radius: 17px;
+      background: linear-gradient(120.43deg, rgba(252, 246, 240, 0.3), rgba(251, 207, 165, 0.7));
+      border: 1px solid #000;
+      box-sizing: border-box;
+      width: 388px;
+      height: 260px;
+      overflow: hidden;
+    }
+
+    .interactive-e-book-library {
+      position: absolute;
+      top: 25px;
+      left: 29px;
+    }
+
+    .icon {
+      position: absolute;
+      top: 215px;
+      left: 109px;
+      width: 279px;
+      height: 260px;
+      overflow: hidden;
+    }
+
+    .a-collection-of {
+      position: absolute;
+      bottom: 21px;
+      left: calc(50% - 165px);
+      font-family: Inter;
+      display: flex;
+      align-items: center;
+      width: 338px;
+      height: 181px;
+    }
+
+    .interactive-e-book-library-parent {
+      position: absolute;
+      top: 0px;
+      left: 455px;
+      border-radius: 17px;
+      background: linear-gradient(120.43deg, rgba(252, 246, 240, 0.3), rgba(251, 207, 165, 0.7));
+      border: 1px solid #000;
+      box-sizing: border-box;
+      width: 388px;
+      height: 260px;
+      overflow: hidden;
+    }
+
+    .frame-parent {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      width: 1298px;
+      height: 260px;
+    }
+
+    .community-peer {
+      position: absolute;
+      top: 39px;
+      left: 30px;
+    }
+
+    .a-safe-discussion {
+      position: absolute;
+      bottom: 7px;
+      left: calc(50% - 164px);
+      font-family: Inter;
+      display: flex;
+      align-items: center;
+      width: 338px;
+      height: 181px;
+    }
+
+    .live-classes {
+      position: absolute;
+      top: 29px;
+      left: 23px;
+    }
+
+    .video-window-real-time {
+      margin: 0;
+    }
+
+    .video-window-real-time-container1 {
+      width: 100%;
+    }
+
+    .video-window-real-time-container {
+      position: absolute;
+      bottom: 13px;
+      left: calc(50% - 171px);
+      font-family: Inter;
+      display: flex;
+      align-items: center;
+      width: 338px;
+      height: 181px;
+    }
+
+    .video-integration-embedded-container {
+      position: absolute;
+      bottom: 0px;
+      left: calc(50% - 160px);
+      display: flex;
+      align-items: center;
+      width: 338px;
+      height: 181px;
+    }
+
+    .animated-video-lessons {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      display: inline-block;
+      width: 333px;
+    }
+
+    .animated-video-lessons-ar-le-wrapper {
+      position: absolute;
+      top: 31px;
+      left: 39px;
+      width: 333px;
+      height: 50px;
+      text-align: center;
+      font-family: Jaro;
+    }
+
+    .video-integration-embedded-an-parent {
+      position: absolute;
+      top: 0px;
+      left: 455px;
+      border-radius: 17px;
+      background: linear-gradient(120.43deg, rgba(252, 246, 240, 0.3), rgba(251, 207, 165, 0.7));
+      border: 1px solid #000;
+      box-sizing: border-box;
+      width: 388px;
+      height: 260px;
+      overflow: hidden;
+      font-family: Inter;
+    }
+
+    .frame-group {
+      position: absolute;
+      top: 463px;
+      left: 0px;
+      width: 1298px;
+      height: 260px;
+    }
+
+    .group-div {
+      position: absolute;
+      top: 79px;
+      left: 0px;
+      filter: drop-shadow(5px 5px 4px rgba(244, 230, 199, 0.25));
+      width: 1298px;
+      height: 723px;
+    }
+
+    .icon1 {
+      position: absolute;
+      top: 0px;
+      left: 923px;
+      border-radius: 18px;
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+    }
+
+    .ani-cartoon-38-1-icon {
+      position: absolute;
+      top: 463px;
+      left: 471px;
+      border-radius: 11px;
+      width: 127.3px;
+      height: 100px;
+      object-fit: cover;
+    }
+
+    .p3mtr0-971-1-icon {
+      position: absolute;
+      top: 462px;
+      left: 924px;
+      border-radius: 18px;
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+    }
+
+    .group-container {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      width: 1298px;
+      height: 802px;
+    }
+
+    .group-wrapper {
+      position: absolute;
+      top: 37px;
+      left: 0px;
+      width: 1298px;
+      height: 802px;
+    }
+
+    .xmlid-55-icon {
+      position: absolute;
+      height: 28.54%;
+      width: 32%;
+      top: 44.61%;
+      right: 49.79%;
+      bottom: 26.86%;
+      left: 18.21%;
+      max-width: 100%;
+      overflow: hidden;
+      max-height: 100%;
+    }
+
+    .xmlid-19-icon {
+      position: absolute;
+      height: 64.57%;
+      width: 66.4%;
+      top: 8.25%;
+      right: 4.31%;
+      bottom: 27.18%;
+      left: 29.29%;
+      max-width: 100%;
+      overflow: hidden;
+      max-height: 100%;
+    }
+
+    .xmlid-327-icon {
+      position: absolute;
+      height: 36.88%;
+      width: 35.6%;
+      top: 21.56%;
+      right: 22.35%;
+      bottom: 41.56%;
+      left: 42.05%;
+      max-width: 100%;
+      overflow: hidden;
+      max-height: 100%;
+    }
+
+    .xmlid-163-icon {
+      position: absolute;
+      height: 21.04%;
+      width: 20.3%;
+      top: 59.98%;
+      right: 45.49%;
+      bottom: 18.98%;
+      left: 34.21%;
+      max-width: 100%;
+      overflow: hidden;
+      max-height: 100%;
+    }
+
+    .xmlid-312-icon {
+      position: absolute;
+      height: 24.3%;
+      width: 23.5%;
+      top: 32.47%;
+      right: 61.14%;
+      bottom: 43.22%;
+      left: 15.36%;
+      max-width: 100%;
+      overflow: hidden;
+      max-height: 100%;
+    }
+
+    .xmlid-164-icon {
+      position: absolute;
+      height: 20.07%;
+      width: 19.4%;
+      top: 4.6%;
+      right: 53.56%;
+      bottom: 75.32%;
+      left: 27.04%;
+      max-width: 100%;
+      overflow: hidden;
+      max-height: 100%;
+    }
+
+    .xmlid-161-icon {
+      position: absolute;
+      height: 26.96%;
+      width: 26%;
+      top: 0%;
+      right: 5.2%;
+      bottom: 73.04%;
+      left: 68.8%;
+      max-width: 100%;
+      overflow: hidden;
+      max-height: 100%;
+    }
+
+    .xmlid-159-icon {
+      position: absolute;
+      height: 18.98%;
+      width: 18.3%;
+      top: 32.57%;
+      right: 0.04%;
+      bottom: 48.45%;
+      left: 81.66%;
+      max-width: 100%;
+      overflow: hidden;
+      max-height: 100%;
+    }
+
+    .xmlid-89-icon {
+      position: absolute;
+      height: 29.38%;
+      width: 28.4%;
+      top: 55.68%;
+      right: 6.9%;
+      bottom: 14.93%;
+      left: 64.7%;
+      max-width: 100%;
+      overflow: hidden;
+      max-height: 100%;
+    }
+
+    .xmlid-108-icon {
+      position: absolute;
+      height: 13.54%;
+      width: 13.1%;
+      top: 4.14%;
+      right: 36.06%;
+      bottom: 82.31%;
+      left: 50.84%;
+      max-width: 100%;
+      overflow: hidden;
+      max-height: 100%;
+    }
+
+    .xmlid-353-icon {
+      position: absolute;
+      height: 84.78%;
+      width: 85.02%;
+      top: 15.04%;
+      right: 7.36%;
+      bottom: 0.18%;
+      left: 7.62%;
+      max-width: 100%;
+      overflow: hidden;
+      max-height: 100%;
+    }
+
+    .xmlid-51-icon {
+      position: absolute;
+      height: 16.96%;
+      width: 100%;
+      top: 55.13%;
+      right: 0%;
+      bottom: 27.92%;
+      left: 0%;
+      max-width: 100%;
+      overflow: hidden;
+      max-height: 100%;
+    }
+
+    .xmlid-50-icon {
+      position: absolute;
+      height: 7.27%;
+      width: 32.96%;
+      top: 82.31%;
+      right: 33.56%;
+      bottom: 10.43%;
+      left: 33.48%;
+      max-width: 100%;
+      overflow: hidden;
+      max-height: 100%;
+    }
+
+    .xmlid-403-icon {
+      position: absolute;
+      height: 58.82%;
+      width: 95.13%;
+      top: 0%;
+      right: 2.24%;
+      bottom: 41.18%;
+      left: 2.63%;
+      max-width: 100%;
+      overflow: hidden;
+      max-height: 100%;
+    }
+
+    .xmlid-401-icon {
+      position: absolute;
+      height: 100%;
+      width: 20.45%;
+      top: 0%;
+      right: 79.55%;
+      bottom: 0%;
+      left: 0%;
+      max-width: 100%;
+      overflow: hidden;
+      max-height: 100%;
+    }
+
+    .xmlid-399-icon {
+      position: absolute;
+      height: 100%;
+      width: 20.45%;
+      top: 1.12%;
+      right: -0.15%;
+      bottom: -1.12%;
+      left: 79.69%;
+      max-width: 100%;
+      overflow: hidden;
+      max-height: 100%;
+    }
+
+    .xmlid-398- {
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      top: 0%;
+      right: 0%;
+      bottom: 0%;
+      left: 0%;
+    }
+
+    .xmlid-374- {
+      position: absolute;
+      height: 2.42%;
+      width: 49.44%;
+      top: 60.81%;
+      right: 25.19%;
+      bottom: 36.77%;
+      left: 25.37%;
+    }
+
+    .xmlid-373-icon {
+      position: absolute;
+      height: 7.61%;
+      width: 17.98%;
+      top: 53.64%;
+      right: 60.89%;
+      bottom: 38.75%;
+      left: 21.13%;
+      max-width: 100%;
+      overflow: hidden;
+      max-height: 100%;
+    }
+
+    .xmlid-372-icon {
+      position: absolute;
+      height: 7.61%;
+      width: 17.98%;
+      top: 53.64%;
+      right: 20.5%;
+      bottom: 38.75%;
+      left: 61.52%;
+      max-width: 100%;
+      overflow: hidden;
+      max-height: 100%;
+    }
+
+    .xmlid-29-icon {
+      position: absolute;
+      height: 12.8%;
+      width: 5.24%;
+      top: 63.61%;
+      right: 44.72%;
+      bottom: 23.59%;
+      left: 50.04%;
+      max-width: 100%;
+      overflow: hidden;
+      max-height: 100%;
+    }
+
+    .xmlid-28- {
+      position: absolute;
+      height: 34.95%;
+      width: 26.7%;
+      top: 65.16%;
+      right: 73.3%;
+      bottom: -0.1%;
+      left: 0%;
+    }
+
+    .objects {
+      position: absolute;
+      height: 9.86%;
+      width: 7.7%;
+      top: 6.44%;
+      right: 90.68%;
+      bottom: 83.71%;
+      left: 1.62%;
+    }
+
+    .vector-icon {
+      position: absolute;
+      height: 5.94%;
+      width: 5.35%;
+      top: 9.42%;
+      right: 57.82%;
+      bottom: 84.65%;
+      left: 36.83%;
+      max-width: 100%;
+      overflow: hidden;
+      max-height: 100%;
+    }
+
+    .group-icon {
+      position: absolute;
+      height: 65.53%;
+      width: 100%;
+      top: 34.43%;
+      right: 0%;
+      bottom: 0.04%;
+      left: 0%;
+      max-width: 100%;
+      overflow: hidden;
+      max-height: 100%;
+    }
+
+    .vector-icon1 {
+      position: absolute;
+      height: 25.36%;
+      width: 28.8%;
+      top: 0%;
+      right: 60.67%;
+      bottom: 74.64%;
+      left: 10.53%;
+      max-width: 100%;
+      overflow: hidden;
+      max-height: 100%;
+    }
+
+    .group {
+      position: absolute;
+      height: 15.04%;
+      width: 7.7%;
+      top: 0%;
+      right: 55.86%;
+      bottom: 84.96%;
+      left: 36.44%;
+    }
+
+    .group-icon1 {
+      position: absolute;
+      height: 9.86%;
+      width: 7.7%;
+      top: 61.03%;
+      right: 90.06%;
+      bottom: 29.12%;
+      left: 2.23%;
+      max-width: 100%;
+      overflow: hidden;
+      max-height: 100%;
+    }
+
+    .group-parent {
+      position: absolute;
+      top: 1949px;
+      left: 71px;
+      width: 1298px;
+      height: 839px;
+      text-align: left;
+      font-size: 20px;
+      font-family: Jaro;
+    }
+
+    .send-fill-icon {
+      position: absolute;
+      top: 1061px;
+      left: 539px;
+      width: 50px;
+      height: 50px;
+      object-fit: cover;
+    }
+
+    .my-batches-icon-2 {
+      position: absolute;
+      top: 79px;
+      left: 54px;
+      width: 60px;
+      height: 60px;
+      overflow: hidden;
+    }
+
+    .heading6 {
+      position: absolute;
+      top: 139px;
+      left: calc(50% - 589px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 177px;
+      height: 38px;
+    }
+
+    .heading7 {
+      position: absolute;
+      top: 366px;
+      left: calc(50% - 589px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 177px;
+      height: 38px;
+    }
+
+    .heading8 {
+      position: absolute;
+      top: 139px;
+      left: calc(50% + 193px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 177px;
+      height: 38px;
+    }
+
+    .heading9 {
+      position: absolute;
+      top: 139px;
+      left: calc(50% - 177px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 177px;
+      height: 38px;
+    }
+
+    .heading10 {
+      position: absolute;
+      top: 187px;
+      left: calc(50% - 578px);
+      font-size: 20px;
+      font-family: Amethysta;
+      text-align: left;
+      display: flex;
+      align-items: center;
+      width: 376px;
+      height: 38px;
+      text-shadow: 1px 0 0 rgba(4, 4, 4, 0.2), 0 1px 0 rgba(4, 4, 4, 0.2), -1px 0 0 rgba(4, 4, 4, 0.2), 0 -1px 0 rgba(4, 4, 4, 0.2);
+      opacity: 0.78;
+    }
+
+    .heading11 {
+      position: absolute;
+      top: 422px;
+      left: calc(50% - 578px);
+      font-size: 20px;
+      font-family: Amethysta;
+      text-align: left;
+      display: flex;
+      align-items: center;
+      width: 376px;
+      height: 38px;
+      text-shadow: 1px 0 0 rgba(4, 4, 4, 0.2), 0 1px 0 rgba(4, 4, 4, 0.2), -1px 0 0 rgba(4, 4, 4, 0.2), 0 -1px 0 rgba(4, 4, 4, 0.2);
+      opacity: 0.78;
+    }
+
+    .heading12 {
+      position: absolute;
+      top: 185px;
+      left: calc(50% + 213px);
+      font-size: 20px;
+      font-family: Amethysta;
+      text-align: left;
+      display: flex;
+      align-items: center;
+      width: 376px;
+      height: 38px;
+      text-shadow: 1px 0 0 rgba(4, 4, 4, 0.2), 0 1px 0 rgba(4, 4, 4, 0.2), -1px 0 0 rgba(4, 4, 4, 0.2), 0 -1px 0 rgba(4, 4, 4, 0.2);
+      opacity: 0.78;
+    }
+
+    .heading13 {
+      position: absolute;
+      top: 186px;
+      left: calc(50% - 164px);
+      font-size: 20px;
+      font-family: Amethysta;
+      text-align: left;
+      display: flex;
+      align-items: center;
+      width: 353px;
+      height: 38px;
+      text-shadow: 1px 0 0 rgba(4, 4, 4, 0.2), 0 1px 0 rgba(4, 4, 4, 0.2), -1px 0 0 rgba(4, 4, 4, 0.2), 0 -1px 0 rgba(4, 4, 4, 0.2);
+      opacity: 0.78;
+    }
+
+    .dashboard-1-icon {
+      position: absolute;
+      top: 41px;
+      left: 824px;
+      width: 118px;
+      height: 107px;
+      overflow: hidden;
+    }
+
+    .vector-icon2 {
+      position: absolute;
+      height: 12.8%;
+      width: 5.62%;
+      top: 11.33%;
+      right: 58.59%;
+      bottom: 75.87%;
+      left: 35.79%;
+      max-width: 100%;
+      overflow: hidden;
+      max-height: 100%;
+    }
+
+    .group-icon2 {
+      position: absolute;
+      height: 8.67%;
+      width: 1.73%;
+      top: 16.89%;
+      right: 59.47%;
+      bottom: 74.44%;
+      left: 38.8%;
+      max-width: 100%;
+      overflow: hidden;
+      max-height: 100%;
+    }
+
+    .group-icon3 {
+      position: absolute;
+      height: 14.77%;
+      width: 3.01%;
+      top: 11.15%;
+      right: 60.18%;
+      bottom: 74.08%;
+      left: 36.81%;
+      max-width: 100%;
+      overflow: hidden;
+      max-height: 100%;
+    }
+
+    .group-icon4 {
+      position: absolute;
+      height: 3.8%;
+      width: 1.5%;
+      top: 12.67%;
+      right: 62.62%;
+      bottom: 83.53%;
+      left: 35.88%;
+      max-width: 100%;
+      overflow: hidden;
+      max-height: 100%;
+    }
+
+    .group-icon5 {
+      position: absolute;
+      height: 2.58%;
+      width: 1.74%;
+      top: 13.87%;
+      right: 59.54%;
+      bottom: 83.56%;
+      left: 38.72%;
+      max-width: 100%;
+      overflow: hidden;
+      max-height: 100%;
+    }
+
+    .group-icon6 {
+      position: absolute;
+      height: 9.82%;
+      width: 1.68%;
+      top: 16.14%;
+      right: 62.12%;
+      bottom: 74.04%;
+      left: 36.2%;
+      max-width: 100%;
+      overflow: hidden;
+      max-height: 100%;
+    }
+
+    .feature2-3d2x-1-icon {
+      position: absolute;
+      top: 306px;
+      left: 48px;
+      width: 60px;
+      height: 60px;
+      object-fit: cover;
+    }
+
+    .heading14 {
+      position: absolute;
+      top: 366px;
+      left: calc(50% - 177px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 177px;
+      height: 38px;
+    }
+
+    .heading15 {
+      position: absolute;
+      top: 422px;
+      left: calc(50% - 166px);
+      font-size: 20px;
+      font-family: Amethysta;
+      text-align: left;
+      display: flex;
+      align-items: center;
+      width: 376px;
+      height: 38px;
+      text-shadow: 1px 0 0 rgba(4, 4, 4, 0.2), 0 1px 0 rgba(4, 4, 4, 0.2), -1px 0 0 rgba(4, 4, 4, 0.2), 0 -1px 0 rgba(4, 4, 4, 0.2);
+      opacity: 0.78;
+    }
+
+    .heading16 {
+      position: absolute;
+      top: 366px;
+      left: calc(50% + 226px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 177px;
+      height: 38px;
+    }
+
+    .heading17 {
+      position: absolute;
+      top: 422px;
+      left: calc(50% + 237px);
+      font-size: 20px;
+      font-family: Amethysta;
+      text-align: left;
+      display: flex;
+      align-items: center;
+      width: 376px;
+      height: 38px;
+      text-shadow: 1px 0 0 rgba(4, 4, 4, 0.2), 0 1px 0 rgba(4, 4, 4, 0.2), -1px 0 0 rgba(4, 4, 4, 0.2), 0 -1px 0 rgba(4, 4, 4, 0.2);
+      opacity: 0.78;
+    }
+
+    .vector-icon3 {
+      position: absolute;
+      top: 306px;
+      left: 462px;
+      width: 60px;
+      height: 60px;
+    }
+
+    .import-icon {
+      position: absolute;
+      top: 306px;
+      left: 851px;
+      width: 60px;
+      height: 60px;
+    }
+
+    .quick-acces {
+      position: absolute;
+      top: 1137px;
+      left: calc(50% - 623px);
+      box-shadow: 0px 2px 0px #000;
+      backdrop-filter: blur(1px);
       border-radius: 10px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-      padding: 20px;
-      margin: 20px 0;
-    }
-    .quick-access h2 {
-      text-align: center;
-      margin-bottom: 20px;
-      font-size: 2rem;
-    }
-    .grid-container {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
-    }
-    .grid-item {
-      background: rgba(255, 255, 255, 0.9);
-      border-radius: 10px;
-      padding: 15px;
-      text-align: center;
-      transition: transform 0.3s;
-    }
-    .grid-item:hover {
-      transform: translateY(-5px);
-    }
-    .grid-item img {
-      max-width: 80px;
-      margin-bottom: 10px;
-    }
-    .grid-item h3 {
-      font-size: 1.25rem;
-      margin-bottom: 8px;
-    }
-    .grid-item p {
-      font-size: 0.9rem;
-      color: #666;
+      background: linear-gradient(98.79deg, rgba(142, 138, 138, 0.15), rgba(53, 64, 224, 0.15));
+      width: 1246px;
+      height: 547px;
+      overflow: hidden;
+      font-size: 32px;
+      font-family: Amaranth;
     }
 
-    /* Group Section (Placeholder for additional content) */
-    .group-section {
-      margin: 20px 0;
-      padding: 20px;
-      background: #fff;
-      border-radius: 10px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    .home-page {
+      width: 100%;
+      position: relative;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      background: linear-gradient(180deg, rgba(0, 0, 0, 0.25), rgba(102, 102, 102, 0.25) 16%, rgba(255, 254, 251, 0.25) 74.9%);
+      height: 3078px;
+      overflow: hidden;
       text-align: center;
-    }
-    .group-section h2 {
-      margin-bottom: 10px;
-      font-size: 2rem;
-    }
-    .group-section p {
-      font-size: 1rem;
-      color: #555;
-    }
-
-    /* Footer */
-    footer {
-      text-align: center;
-      padding: 20px 0;
-      font-size: 0.9rem;
-      color: #777;
-    }
-
-    /* Responsive Adjustments */
-    @media (max-width: 768px) {
-      header {
-        flex-direction: column;
-        text-align: center;
-      }
-      .nav {
-        justify-content: center;
-      }
-      .heading {
-        font-size: 2rem;
-      }
-      .subheading {
-        font-size: 1.5rem;
-      }
-      .chatbot-section h2 {
-        font-size: 1.5rem;
-      }
-      .quick-access h2 {
-        font-size: 1.75rem;
-      }
+      font-size: 48px;
+      color: #000;
+      font-family: Aclonica;
     }
   </style>
+
 </head>
+
 <body>
+
   <div class="home-page">
-    <!-- Header Section -->
-    <header>
-      <img src="Logo.png" alt="Logo" class="logo" />
-      <nav class="nav">
-        <div class="nav-item">Home</div>
-        <div class="nav-item">Courses</div>
-        <div class="nav-item">Resources</div>
-        <div class="nav-item">Login</div>
-        <div class="nav-item">Sign Up</div>
-      </nav>
-      <img src="User_Profile.svg" alt="User Profile" class="user-profile" />
-    </header>
-
-    <!-- Banner / Background Image -->
-    <img src="background-image 1.png" alt="Background" class="banner" />
-
-    <!-- Main Headings -->
-    <div class="heading">All Kids Are Best</div>
-    <div class="subheading">Explorer In The World</div>
-
-    <!-- Chatbot Section -->
-    <section class="chatbot-section">
-      <div>
-        <h2>How May I Help You?</h2>
-        <img src="First_background-image.png" alt="Chatbot" />
+    <div class="button-login-parent">
+      <div class="button-login">
+        <div class="button-login-child">
+        </div>
+        <div class="sign-up">Login</div>
       </div>
-      <div>
-        <img src="Line 1.svg" alt="Decorative Line" />
+      <div class="button-sign-up">
+        <div class="button-sign-up-child">
+        </div>
+        <div class="sign-up1">Sign Up</div>
       </div>
-    </section>
+      <img class="user-profile-icon" alt="" src="User_Profile.svg">
 
-    <!-- Quick Access Section -->
-    <section class="quick-access">
-      <h2>Quick Access</h2>
-      <div class="grid-container">
-        <div class="grid-item">
-          <img src="My batches icon 2.svg" alt="My Courses" />
-          <h3>My Courses</h3>
-          <p>View the courses in which you are taken</p>
-        </div>
-        <div class="grid-item">
-          <img src="Vector.svg" alt="Mentorship" />
-          <h3>Mentorship</h3>
-          <p>1:1 mentorship for 24 hrs of teaching and help assistance</p>
-        </div>
-        <div class="grid-item">
-          <img src="Dashboard 1.svg" alt="Dashboard" />
-          <h3>Dashboard</h3>
-          <p>Click here to view your performance based dashboard</p>
-        </div>
-        <div class="grid-item">
-          <img src="Group.svg" alt="My Doubts" />
-          <h3>My Doubts</h3>
-          <p>View the lists of the doubts asked by you</p>
-        </div>
-        <div class="grid-item">
-          <img src="feature2_3d@2x 1.png" alt="Demo Class" />
-          <h3>Demo Class</h3>
-          <p>You can visit demo classes for a particular class</p>
-        </div>
-        <div class="grid-item">
-          <img src="Import.svg" alt="Downloads" />
-          <h3>Downloads</h3>
-          <p>Download resources for better learning</p>
+      <div class="courses">
+        <div class="resousces">courses</div>
+        <img class="expand-right-icon" alt="" src="Expand_right.png">
+
+      </div>
+      <div class="home">
+        <div class="resousces">home</div>
+      </div>
+      <div class="home2">
+        <div class="shiksha-sahayak">Shiksha Sahayak </div>
+      </div>
+      <div class="resources">
+        <div class="resousces">resousces</div>
+        <img class="expand-right-icon1" alt="" src="Expand_right.png">
+
+      </div>
+      <img class="logo-icon" alt="" src="Logo.png">
+
+    </div>
+    <img class="background-image-1-icon" alt="" src="background-image 1.png">
+
+    <div class="heading">All Kids Are Best </div>
+    <div class="heading1">Explorer In The World</div>
+    <div class="chatbot-parent">
+      <div class="chatbot">
+        <div class="heading2">How May I Help You?</div>
+        <img class="first-background-image-icon" alt="" src="First_background-image.png">
+
+      </div>
+      <img class="group-child" alt="" src="Line 1.svg">
+
+    </div>
+    <img class="libray-1-icon" alt="" src="libray 1.png">
+
+    <div class="heading3">Quick Access</div>
+    <div class="heading3">Quick Access</div>
+    <div class="heading-parent">
+      <div class="heading5">Your Benifits</div>
+      <div class="children-deserves-bright">Children Deserves Bright Future</div>
+      <div class="with-a-dedicated">With a dedicated team of experienced educators, state-of-the-art facilities,
+        and a comprehensive curriculum, we aim to lay a strong foundation for your child's 1 future.</div>
+    </div>
+    <div class="group-parent">
+      <div class="group-wrapper">
+        <div class="group-container">
+          <div class="group-div">
+            <div class="frame-parent">
+              <div class="personalized-student-dashboard-parent">
+                <div class="personalized-student-dashboard">Personalized Student Dashboard</div>
+                <div class="a-gamified-dashboard">A gamified dashboard where students can track their
+                  learning progress, complete daily tasks, and receive AI-driven recommendations based
+                  on their performance. Parents and teachers can also monitor progress.</div>
+              </div>
+              <div class="adaptive-quizzes-gamified-le-parent">
+                <div class="adaptive-quizzes">Adaptive Quizzes & Gamified Learning</div>
+                <div class="ai-powered-quizzes-that">AI-powered quizzes that adjust difficulty based on
+                  the student’s responses. Includes leaderboards, instant feedback, and reward points
+                  to encourage engagement and improve learning outcomes.</div>
+              </div>
+              <div class="interactive-e-book-library-parent">
+                <div class="interactive-e-book-library"> Interactive E-Book Library</div>
+                <img class="icon" alt="" src="2606553_5888 2.svg">
+
+                <div class="a-collection-of">A collection of animated and audio-supported e-books with a
+                  read-along feature and multilingual support. Students can download books for offline
+                  reading and interact with highlighted key concepts.</div>
+              </div>
+            </div>
+            <div class="frame-group">
+              <div class="personalized-student-dashboard-parent">
+                <div class="community-peer">Community & Peer Learning Forum</div>
+                <div class="a-safe-discussion">A safe discussion space for students to collaborate, ask
+                  doubts, and engage in peer learning. Teachers and mentors can also moderate
+                  discussions and provide guidance.</div>
+              </div>
+              <div class="adaptive-quizzes-gamified-le-parent">
+                <div class="live-classes">Live Classes & Virtual Classroom</div>
+                <div class="video-window-real-time-container">
+                  <span class="video-window-real-time-container1">
+                    <p class="video-window-real-time">Video window, real-time chat panel, and Q&A
+                      sidebar.</p>
+                    <p class="video-window-real-time">Clear scheduling details and session controls
+                      for smooth class transitions.</p>
+                    <p class="video-window-real-time">Features to facilitate breakout sessions or
+                      small group discussions.</p>
+                  </span>
+                </div>
+              </div>
+              <div class="video-integration-embedded-an-parent">
+                <div class="video-integration-embedded-container">
+                  <span class="video-window-real-time-container1">
+                    <p class="video-window-real-time">Video Integration: Embedded animated lessons
+                      with clear, concise controls.</p>
+                    <p class="video-window-real-time">Pop-up previews or dedicated sections for AR
+                      models (especially for subjects like science and math).</p>
+                  </span>
+                </div>
+                <div class="animated-video-lessons-ar-le-wrapper">
+                  <div class="animated-video-lessons">Animated Video Lessons & AR Learning Page</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <img class="icon1" alt="" src="6543906 1.png">
+
+          <img class="ani-cartoon-38-1-icon" alt="" src="26538972_2022_ani_cartoon_38 1.png">
+
+          <img class="p3mtr0-971-1-icon" alt="" src="1713080_244242-P3MTR0-971 1.png">
+
         </div>
       </div>
-    </section>
+      <div class="objects">
+        <img class="xmlid-55-icon" alt="" src="XMLID_55_.svg">
 
-    <!-- Group Section (Additional content area) -->
-    <section class="group-section">
-      <h2>Your Benefits</h2>
-      <p>
-        With a dedicated team of experienced educators, state-of-the-art facilities, and a comprehensive curriculum, we aim to lay a strong foundation for your child's bright future.
-      </p>
-    </section>
+        <img class="xmlid-19-icon" alt="" src="XMLID_19_.svg">
 
-    <!-- (Additional sections like image groups, sliders, etc. can be added here following similar responsive patterns) -->
+        <img class="xmlid-327-icon" alt="" src="XMLID_327_.svg">
 
-    <!-- Footer -->
-    <footer>
-      <p>&copy; 2025 Your Company. All rights reserved.</p>
-    </footer>
+        <img class="xmlid-163-icon" alt="" src="XMLID_163_.svg">
+
+        <img class="xmlid-312-icon" alt="" src="XMLID_312_.svg">
+
+        <img class="xmlid-164-icon" alt="" src="XMLID_164_.svg">
+
+        <img class="xmlid-161-icon" alt="" src="XMLID_161_.svg">
+
+        <img class="xmlid-159-icon" alt="" src="XMLID_159_.svg">
+
+        <img class="xmlid-89-icon" alt="" src="XMLID_89_.svg">
+
+        <img class="xmlid-108-icon" alt="" src="XMLID_108_.svg">
+
+        <div class="xmlid-28-">
+          <img class="xmlid-353-icon" alt="" src="XMLID_353_.svg">
+
+          <img class="xmlid-51-icon" alt="" src="XMLID_51_.svg">
+
+          <img class="xmlid-50-icon" alt="" src="XMLID_50_.svg">
+
+          <img class="xmlid-403-icon" alt="" src="XMLID_403_.svg">
+
+          <div class="xmlid-374-">
+            <div class="xmlid-398-">
+              <img class="xmlid-401-icon" alt="" src="XMLID_401_.svg">
+
+              <img class="xmlid-399-icon" alt="" src="XMLID_399_.svg">
+
+            </div>
+          </div>
+          <img class="xmlid-373-icon" alt="" src="XMLID_373_.svg">
+
+          <img class="xmlid-372-icon" alt="" src="XMLID_372_.svg">
+
+          <img class="xmlid-29-icon" alt="" src="XMLID_29_.svg">
+
+        </div>
+      </div>
+      <img class="vector-icon" alt="" src="Vector.svg">
+
+      <div class="group">
+        <img class="group-icon" alt="" src="Group.svg">
+
+        <img class="vector-icon1" alt="" src="Vector.svg">
+
+      </div>
+      <img class="group-icon1" alt="" src="Group.svg">
+
+    </div>
+    <img class="send-fill-icon" alt="" src="Send_fill.png">
+
+    <div class="quick-acces">
+      <img class="my-batches-icon-2" alt="" src="My batches icon 2.svg">
+
+      <div class="heading6">My Courses</div>
+      <div class="heading7">Mentorship</div>
+      <div class="heading8">Dashboard</div>
+      <div class="heading9">My Doubts</div>
+      <div class="heading10">View the courses in which you are taken</div>
+      <div class="heading11">1 : 1 mentorship for 24 hrs of teaching and help assistance </div>
+      <div class="heading12">Click here to view your performance based dashboard</div>
+      <div class="heading13">View the lists of the doubts ask by you </div>
+      <img class="dashboard-1-icon" alt="" src="Dashboard 1.svg">
+
+      <img class="vector-icon2" alt="" src="Vector.svg">
+
+      <img class="group-icon2" alt="" src="Group.svg">
+
+      <img class="group-icon3" alt="" src="Group.svg">
+
+      <img class="group-icon4" alt="" src="Group.svg">
+
+      <img class="group-icon5" alt="" src="Group.svg">
+
+      <img class="group-icon6" alt="" src="Group.svg">
+
+      <img class="feature2-3d2x-1-icon" alt="" src="feature2_3d@2x 1.png">
+
+      <div class="heading14">Demo Class</div>
+      <div class="heading15">You can visit demo classes for a particular classes </div>
+      <div class="heading16">Downloads</div>
+      <div class="heading17">1 : 1 mentorship for 24 hrs of teaching and help assistance </div>
+      <img class="vector-icon3" alt="" src="Vector.svg">
+
+      <img class="import-icon" alt="" src="Import.svg">
+
+    </div>
   </div>
 </body>
+
 </html>
