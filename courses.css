@@ -4,21 +4,22 @@ body {
     line-height: normal;
 }
 
+.courses-section-child {
+    position: absolute;
+    top: 1316px;
+    left: 0px;
+    background: linear-gradient(-88.36deg, #ac95e3 8.43%, #fffdcb);
+    width: 1440px;
+    height: 293px;
+    overflow: hidden;
+    opacity: 0.46;
+}
 .tool-human-1 {
     position: absolute;
-    top: 77px;
+    top: 1457px;
     left: 720px;
     width: 100px;
     height: 100px;
-}
-.desktop-4 {
-    position: absolute;
-    top: 1380px;
-    left: calc(50% - 720px);
-    background: linear-gradient(119.15deg, rgba(247, 247, 247, 0.89), rgba(145, 145, 145, 0.18));
-    width: 1440px;
-    height: 360px;
-    overflow: hidden;
 }
 .welcome-to-my {
     position: absolute;
@@ -27,7 +28,7 @@ body {
     font-size: 48px;
     font-family: Almendra;
 }
-.courses-section-child {
+.courses-section-item {
     position: absolute;
     top: -192px;
     left: 931px;
@@ -53,7 +54,7 @@ body {
     font-family: Inter;
     text-align: left;
 }
-.courses-section-item {
+.courses-section-inner {
     position: absolute;
     top: 137px;
     left: 974px;
@@ -144,112 +145,19 @@ body {
     height: 181px;
     overflow: hidden;
 }
-.mentorship {
+.ellipse-div {
     position: absolute;
-    top: 75.07%;
-    right: 21px;
-}
-.frame-child {
-    position: absolute;
-    height: 74.5%;
-    width: 100%;
-    top: 0%;
-    right: 0%;
-    bottom: 25.5%;
-    left: 0%;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-}
-.frame-item {
-    position: absolute;
-    top: 253px;
-    left: 13px;
-    width: 50px;
-    height: 62px;
-}
-.mentorship-parent {
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    border-radius: 17px;
-    background: linear-gradient(180deg, #ff8181, rgba(255, 255, 255, 0) 95.46%);
-    width: 311px;
-    height: 353px;
-    overflow: hidden;
-}
-.frame-wrapper {
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    width: 311px;
-    height: 353px;
-}
-.library {
-    position: absolute;
-    top: 0%;
-    left: calc(50% - 19px);
-}
-.group-child {
-    position: absolute;
-    height: 100%;
-    width: 28.49%;
-    top: 0%;
-    right: 71.51%;
-    bottom: 0%;
-    left: 0%;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-}
-.library-parent {
-    position: absolute;
-    height: 17.56%;
-    top: 77.34%;
-    bottom: 5.1%;
-    left: calc(50% - 83.5px);
-    width: 172px;
-}
-.group-container {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    border-radius: 17px;
-    background: linear-gradient(180deg, #05eeff, rgba(255, 255, 255, 0) 95.46%);
-    width: 311px;
-    height: 353px;
-    overflow: hidden;
-}
-.frame-container {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 311px;
-    height: 353px;
-    font-size: 36px;
-}
-.group-parent {
-    position: absolute;
-    top: 1204px;
-    right: 129px;
-    width: 1092px;
-    height: 353px;
-    font-size: 32px;
-    font-family: 'Annapurna SIL';
-}
-.group-item {
-    position: absolute;
-    top: 496px;
-    left: 0px;
+    top: 668px;
+    left: -65px;
     border-radius: 50%;
     background: linear-gradient(204.7deg, #0011ff, rgba(0, 0, 0, 0.1));
     width: 200px;
     height: 200px;
 }
-.group-inner {
+.courses-section-child1 {
     position: absolute;
-    top: 0px;
-    left: 1364px;
+    top: 172px;
+    left: 1299px;
     border-radius: 50%;
     background: linear-gradient(129.37deg, #aff6bc, #66906e);
     width: 200px;
@@ -263,7 +171,7 @@ body {
     width: 705px;
     height: 622px;
 }
-.group-icon {
+.group-child {
     position: absolute;
     height: 31.32%;
     width: 23.09%;
@@ -286,7 +194,7 @@ body {
     width: 300px;
     height: 108px;
 }
-.rectangle-div {
+.group-item {
     position: absolute;
     height: 100%;
     width: 100%;
@@ -483,7 +391,7 @@ body {
     object-fit: cover;
     opacity: 0.5;
 }
-.rectangle-parent1 {
+.group-div {
     position: absolute;
     height: 98.63%;
     width: 100%;
@@ -520,7 +428,7 @@ body {
     width: 404px;
     height: 291px;
 }
-.group-child4 {
+.group-child2 {
     position: absolute;
     height: 100%;
     width: 100%;
@@ -567,7 +475,7 @@ body {
     font-size: 32px;
     font-family: Jua;
 }
-.group-parent1 {
+.group-parent {
     position: absolute;
     height: 30.37%;
     width: 30.7%;
@@ -578,7 +486,7 @@ body {
     font-size: 20px;
     font-family: Inter;
 }
-.group-child5 {
+.group-icon {
     position: absolute;
     height: 97.62%;
     width: 70.79%;
@@ -629,7 +537,7 @@ body {
     font-size: 32px;
     font-family: Jua;
 }
-.group-parent3 {
+.group-parent2 {
     position: absolute;
     height: 97.62%;
     width: 100%;
@@ -638,7 +546,7 @@ body {
     bottom: 0%;
     left: 0%;
 }
-.group-parent2 {
+.group-parent1 {
     position: absolute;
     height: 31.11%;
     width: 30.7%;
@@ -649,7 +557,7 @@ body {
     font-size: 24px;
     font-family: Inter;
 }
-.group-child7 {
+.group-child4 {
     position: absolute;
     height: 30.37%;
     width: 26.84%;
@@ -663,20 +571,106 @@ body {
 }
 .course-vector-parent {
     position: absolute;
-    top: 60px;
-    left: 101px;
+    top: 232px;
+    left: 62px;
     width: 1316px;
     height: 945px;
-}
-.ellipse-parent {
-    position: absolute;
-    top: 172px;
-    left: -65px;
-    width: 1564px;
-    height: 1005px;
     text-align: left;
     font-size: 32px;
     font-family: Jua;
+}
+.mentorship {
+    position: absolute;
+    top: 75.07%;
+    right: 21px;
+}
+.frame-child {
+    position: absolute;
+    height: 74.5%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 25.5%;
+    left: 0%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.frame-item {
+    position: absolute;
+    top: 253px;
+    left: 13px;
+    width: 50px;
+    height: 62px;
+}
+.mentorship-parent {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border-radius: 17px;
+    background: linear-gradient(180deg, #ff8181, rgba(255, 255, 255, 0) 95.46%);
+    width: 311px;
+    height: 353px;
+    overflow: hidden;
+}
+.frame-wrapper {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 311px;
+    height: 353px;
+}
+.library {
+    position: absolute;
+    top: 0%;
+    left: calc(50% - 19px);
+}
+.group-child5 {
+    position: absolute;
+    height: 100%;
+    width: 28.49%;
+    top: 0%;
+    right: 71.51%;
+    bottom: 0%;
+    left: 0%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.library-parent {
+    position: absolute;
+    height: 17.56%;
+    top: 77.34%;
+    bottom: 5.1%;
+    left: calc(50% - 83.5px);
+    width: 172px;
+}
+.group-parent4 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 17px;
+    background: linear-gradient(180deg, #05eeff, rgba(255, 255, 255, 0) 95.46%);
+    width: 311px;
+    height: 353px;
+    overflow: hidden;
+}
+.frame-container {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 311px;
+    height: 353px;
+    font-size: 36px;
+}
+.group-parent3 {
+    position: absolute;
+    top: 1204px;
+    right: 174px;
+    width: 1092px;
+    height: 353px;
+    font-size: 32px;
+    font-family: 'Annapurna SIL';
 }
 .courses-section {
     width: 100%;
