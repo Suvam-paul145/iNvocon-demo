@@ -7,12 +7,13 @@ body {
 .courses-section-child {
     position: absolute;
     top: 1316px;
-    left: 0px;
-    background: linear-gradient(-88.36deg, #ac95e3 8.43%, #fffdcb);
-    width: 1440px;
+    left: calc(50% - 625px);
+    border-radius: 44px;
+    background: linear-gradient(86.92deg, #ef7272, rgba(255, 205, 163, 0.27) 91.78%);
+    width: 1250px;
     height: 293px;
     overflow: hidden;
-    opacity: 0.46;
+    opacity: 0.31;
 }
 .tool-human-1 {
     position: absolute;
