@@ -39,13 +39,13 @@ body {
     text-align: left;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.enhance-math-skill {
+.learn-experiment-and {
     margin: 0;
 }
-.enhance-math-skill-container {
+.learn-experiment-and-container {
     position: absolute;
     top: 376px;
-    left: calc(50% - 247px);
+    left: calc(50% - 347px);
     letter-spacing: 0.08em;
     line-height: 128.13%;
 }
@@ -278,5 +278,4 @@ body {
     color: #000;
     font-family: 'Pontano Sans';
 }
-
 
