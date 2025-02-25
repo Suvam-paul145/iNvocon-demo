@@ -5,7 +5,7 @@ Contributers :
 Suvam Paul
 Atish Basak
 <<<<<<< HEAD
-Anita Mohanta
+Anita Mahato
 Aditi
 =======
 Anita Mahato
