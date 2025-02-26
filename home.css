@@ -8,6 +8,8 @@
 body {
   margin: 0;
   line-height: normal;
+  height: auto;
+
 }
 
 .button-login-child {
