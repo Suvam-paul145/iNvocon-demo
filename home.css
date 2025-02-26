@@ -1,10 +1,10 @@
-
 /* Reset and Base Styles */
- *{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
- }
+}
+
 body {
   margin: 0;
   line-height: normal;
@@ -35,13 +35,15 @@ body {
   justify-content: center;
   cursor: pointer;
 }
-.sign-up:hover{
-color: #1b1b1b;
-background: #fff;
+
+.sign-up:hover {
+  color: #1b1b1b;
+  background: #fff;
 }
-.sign-up1:hover{
-color: #1b1b1b;
-background: #fff;
+
+.sign-up1:hover {
+  color: #1b1b1b;
+  background: #fff;
 }
 
 .button-login {
@@ -154,21 +156,25 @@ background: #fff;
   width: 167px;
   height: 50px;
 }
-.login:hover{
-color: #1b1b1b;
-background: #fff;
+
+.login:hover {
+  color: #1b1b1b;
+  background: #fff;
 }
-.courses:hover{
-color: #1b1b1b;
-background: #fff;
+
+.courses:hover {
+  color: #1b1b1b;
+  background: #fff;
 }
-.resources:hover{
-color: #1b1b1b;
-background: #fff;
+
+.resources:hover {
+  color: #1b1b1b;
+  background: #fff;
 }
-.home:hover{
-color: #1b1b1b;
-background: #fff;
+
+.home:hover {
+  color: #1b1b1b;
+  background: #fff;
 }
 
 .expand-right-icon1 {
@@ -333,7 +339,7 @@ background: #fff;
   font-size: 20px;
   letter-spacing: 0.19em;
   font-family: Poppins;
-  background: linear-gradient(#141414, #141414), #000;
+  /* background: linear-gradient(#141414, #141414), #000; */
   --webkit-background-clip: text;
   --webkit-text-fill-color: transparent;
   display: flex;
@@ -1290,7 +1296,8 @@ background: #fff;
   font-size: 48px;
   color: #000;
   font-family: Aclonica;
-} 
+}
+
 /* hdhdh */
 
 /* .faq{
@@ -1304,7 +1311,7 @@ background: #fff;
 }
 
 .faq {
-    background: black;  
+  background: black;
   color: white;
   padding: 34px;
 }
