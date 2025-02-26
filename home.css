@@ -222,8 +222,8 @@ background: #fff;
   left: calc(50% - 541px);
   font-size: 120px;
   background: radial-gradient(50% 50% at 50% 50%, #b200e8, #3463ae 88.9%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  --webkit-background-clip: text;
+  --webkit-text-fill-color: transparent;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -334,8 +334,8 @@ background: #fff;
   letter-spacing: 0.19em;
   font-family: Poppins;
   background: linear-gradient(#141414, #141414), #000;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  --webkit-background-clip: text;
+  --webkit-text-fill-color: transparent;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1284,10 +1284,47 @@ background: #fff;
   position: relative;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.25), rgba(102, 102, 102, 0.25) 16%, rgba(255, 254, 251, 0.25) 74.9%);
-  height: 3078px;
+  height: 2875.8px;
   overflow: hidden;
   text-align: center;
   font-size: 48px;
   color: #000;
   font-family: Aclonica;
+}
+
+/* .faq{
+  margin-top: -195.6px;
+  
+} */
+
+.faq h2 {
+  text-align: center;
+  font-size: 48px;
+}
+
+.faq {
+    background: black;  
+  color: white;
+  padding: 34px;
+}
+
+.faqbox:hover {
+  background-color: #414141;
+  color: white;
+}
+
+.faqbox svg {
+  filter: invert(1);
+}
+
+.faqbox {
+  transition: all 1s ease-out;
+  font-size: 24px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #2d2d2d;
+  padding: 24px;
+  max-width: 60vw;
+  margin: 34px auto;
+  cursor: pointer;
 }
