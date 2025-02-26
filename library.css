@@ -1,10 +1,9 @@
-
 body {
     margin: 0;
     line-height: normal;
-}
-
-.course-page-icon {
+  }
+  
+  .course-page-icon {
     position: absolute;
     height: 43.89%;
     width: 68.54%;
@@ -16,8 +15,8 @@ body {
     overflow: hidden;
     max-height: 100%;
     object-fit: cover;
-}
-.library-section {
+  }
+  .library-section {
     position: absolute;
     top: 750px;
     left: calc(50% - 575px);
@@ -29,34 +28,34 @@ body {
     width: 1150px;
     height: 300px;
     overflow: hidden;
-}
-.history1 {
+  }
+  .history1 {
     position: absolute;
     top: 0px;
     left: calc(50% - 62px);
-}
-.homework-7117327-1-icon {
+  }
+  .homework-7117327-1-icon {
     position: absolute;
     top: 29px;
     left: calc(50% - 60px);
     width: 120px;
     height: 120px;
     object-fit: cover;
-}
-.visit-now {
+  }
+  .visit-now {
     position: absolute;
     top: 23px;
     left: 68px;
-}
-.send-fill-icon {
+  }
+  .send-fill-icon {
     position: absolute;
     top: 0px;
     left: 0px;
     width: 70.7px;
     height: 70.7px;
     object-fit: contain;
-}
-.visit-now-parent {
+  }
+  .visit-now-parent {
     position: absolute;
     top: 168px;
     left: 0px;
@@ -64,8 +63,8 @@ body {
     height: 70.7px;
     font-size: 20px;
     font-family: 'Inclusive Sans';
-}
-.history {
+  }
+  .history {
     position: absolute;
     top: 582px;
     left: 965px;
@@ -75,19 +74,19 @@ body {
     width: 246px;
     height: 239px;
     overflow: hidden;
-}
-.logo-icon {
+  }
+  .logo-icon {
     position: absolute;
     top: 0px;
     left: 0px;
     width: 100px;
     height: 100px;
     object-fit: cover;
-}
-.digital-arena-library {
+  }
+  .digital-arena-library {
     margin: 0;
-}
-.digital-arena-library-container {
+  }
+  .digital-arena-library-container {
     position: absolute;
     top: 45px;
     left: calc(50% - 257px);
@@ -96,21 +95,21 @@ body {
     display: inline-block;
     width: 514px;
     height: 52px;
-}
-.online-class-6988481-1-icon {
+  }
+  .online-class-6988481-1-icon {
     position: absolute;
     top: 44px;
     left: calc(50% - 60px);
     width: 120px;
     height: 120px;
     object-fit: cover;
-}
-.math {
+  }
+  .math {
     position: absolute;
     top: 0px;
     left: calc(50% - 43px);
-}
-.maths {
+  }
+  .maths {
     position: absolute;
     top: 582px;
     left: 229px;
@@ -120,21 +119,21 @@ body {
     width: 246px;
     height: 239px;
     overflow: hidden;
-}
-.stem1 {
+  }
+  .stem1 {
     position: absolute;
     top: 0px;
     left: calc(50% - 47px);
-}
-.knowledge-11240289-1-icon {
+  }
+  .knowledge-11240289-1-icon {
     position: absolute;
     top: 36px;
     left: calc(50% - 60px);
     width: 120px;
     height: 120px;
     object-fit: cover;
-}
-.stem {
+  }
+  .stem {
     position: absolute;
     top: 582px;
     left: 597px;
@@ -144,23 +143,23 @@ body {
     width: 246px;
     height: 239px;
     overflow: hidden;
-}
-.teaching-18752109-1-icon {
+  }
+  .teaching-18752109-1-icon {
     position: absolute;
     top: 74px;
     left: calc(50% - 60px);
     width: 120px;
     height: 120px;
     object-fit: cover;
-}
-.group-div {
+  }
+  .group-div {
     position: absolute;
     top: 168px;
     left: 0px;
     width: 155px;
     height: 70.7px;
-}
-.communications-skills {
+  }
+  .communications-skills {
     position: absolute;
     top: 938px;
     left: 597px;
@@ -172,23 +171,23 @@ body {
     overflow: hidden;
     font-size: 20px;
     font-family: 'Inclusive Sans';
-}
-.health-wellness1 {
+  }
+  .health-wellness1 {
     position: absolute;
     top: 0px;
     left: calc(50% - 78px);
     display: inline-block;
     width: 156px;
-}
-.education-17101426-1-icon {
+  }
+  .education-17101426-1-icon {
     position: absolute;
     top: 73px;
     left: calc(50% - 60px);
     width: 120px;
     height: 120px;
     object-fit: cover;
-}
-.health-wellness {
+  }
+  .health-wellness {
     position: absolute;
     top: 938px;
     left: 229px;
@@ -199,17 +198,17 @@ body {
     height: 239px;
     overflow: hidden;
     font-size: 36px;
-}
-.communication-skill {
+  }
+  .communication-skill {
     position: absolute;
     top: 945px;
-    left: calc(50% - 118px);
+    left: calc(50% - 150px);
     font-size: 32px;
     text-align: center;
     display: inline-block;
     width: 236px;
-}
-.go-to-home {
+  }
+  .go-to-home {
     position: absolute;
     top: 47px;
     left: 189px;
@@ -218,26 +217,55 @@ body {
     display: inline-block;
     width: 164px;
     height: 46px;
-}
-.geography1 {
+    cursor: pointer;
+  }
+  .go-to-home:hover{
+    color: white;
+    background: rgb(3, 137, 190);
+  }
+  .maths:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+  }
+  .stem:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+  }
+  .history:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+  }
+  .health-wellness:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+  }
+  .geography:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+  }
+  .communications-skills:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+  }
+  .geography1 {
     position: absolute;
     top: 0px;
     left: calc(50% - 92px);
-}
-.education-4694375-1-icon {
+  }
+  .education-4694375-1-icon {
     position: absolute;
     top: 53px;
     left: calc(50% - 60px);
     width: 120px;
     height: 120px;
     object-fit: cover;
-}
-.visit-now5 {
+  }
+  .visit-now5 {
     position: absolute;
     top: 23px;
     left: 71px;
-}
-.visit-now-parent2 {
+  }
+  .visit-now-parent2 {
     position: absolute;
     top: 168px;
     left: 0px;
@@ -245,8 +273,8 @@ body {
     height: 70.7px;
     font-size: 20px;
     font-family: 'Inclusive Sans';
-}
-.geography {
+  }
+  .geography {
     position: absolute;
     top: 938px;
     left: 970px;
@@ -256,8 +284,8 @@ body {
     width: 246px;
     height: 239px;
     overflow: hidden;
-}
-.think-beyond-imaginations {
+  }
+  .think-beyond-imaginations {
     position: absolute;
     top: 99px;
     left: calc(50% - 470px);
@@ -269,8 +297,8 @@ body {
     width: 966px;
     height: 147px;
     text-shadow: 1px 0 0 #000, 0 1px 0 #000, -1px 0 0 #000, 0 -1px 0 #000;
-}
-.library-couse {
+  }
+  .library-couse {
     width: 100%;
     position: relative;
     box-shadow: 55px 72px 86.8px rgba(168, 168, 168, 0.25) inset;
@@ -281,5 +309,4 @@ body {
     font-size: 40px;
     color: #000;
     font-family: Judson;
-}
-
+  }
