@@ -280,7 +280,7 @@ body {
     top: 11.85%;
     left: 30.45%;
     background: linear-gradient(90deg, #0a0905, #fff);
-    --webkit-background-clip: text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     display: inline-block;
   }
@@ -446,7 +446,7 @@ body {
     top: 31.36%;
     left: 8.66%;
     background: linear-gradient(90deg, #000, #008ea4 46%, #001e23 88.48%, #000);
-    --webkit-background-clip: text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     display: inline-block;
   }
@@ -510,7 +510,7 @@ body {
     top: 29.27%;
     left: 12.13%;
     background: linear-gradient(90deg, #000, #008ea4 46%, #001e23 88.48%, #000);
-    --webkit-background-clip: text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     display: inline-block;
   }
