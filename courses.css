@@ -1,10 +1,9 @@
-
 body {
     margin: 0;
     line-height: normal;
-}
-
-.courses-section-child {
+  }
+  
+  .courses-section-child {
     position: absolute;
     top: 1316px;
     left: calc(50% - 625px);
@@ -14,30 +13,30 @@ body {
     height: 293px;
     overflow: hidden;
     opacity: 0.31;
-}
-.tool-human-1 {
+  }
+  .tool-human-1 {
     position: absolute;
     top: 1457px;
     left: 720px;
     width: 100px;
     height: 100px;
-}
-.welcome-to-my {
+  }
+  .welcome-to-my {
     position: absolute;
     top: 116px;
     left: calc(50% - 218px);
     font-size: 48px;
     font-family: Almendra;
-}
-.courses-section-item {
+  }
+  .courses-section-item {
     position: absolute;
     top: -192px;
     left: 931px;
     background-color: #b3abab;
     width: 1440px;
     height: 132px;
-}
-.home {
+  }
+  .home {
     position: absolute;
     top: 47px;
     left: 314px;
@@ -46,16 +45,16 @@ body {
     display: inline-block;
     width: 97px;
     height: 33px;
-}
-.s {
+  }
+  .s {
     position: absolute;
     top: 32px;
     right: 0px;
     font-size: 12px;
     font-family: Inter;
     text-align: left;
-}
-.courses-section-inner {
+  }
+  .courses-section-inner {
     position: absolute;
     top: 137px;
     left: 974px;
@@ -63,16 +62,16 @@ body {
     background-color: #d9d9d9;
     width: 1px;
     height: 1px;
-}
-.logo-icon {
+  }
+  .logo-icon {
     position: absolute;
     top: 2px;
     left: 27px;
     width: 100px;
     height: 100px;
     object-fit: cover;
-}
-.button-sign-up-child {
+  }
+  .button-sign-up-child {
     position: absolute;
     height: 100%;
     width: 100%;
@@ -83,8 +82,8 @@ body {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 58px;
     background: linear-gradient(90deg, #fff, #90f3f9);
-}
-.sign-up {
+  }
+  .sign-up {
     position: absolute;
     width: 58.14%;
     top: 24.44%;
@@ -92,8 +91,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-.button-sign-up {
+  }
+  .button-sign-up {
     position: absolute;
     top: 41px;
     left: 918px;
@@ -101,8 +100,8 @@ body {
     width: 129px;
     height: 45px;
     font-size: 20px;
-}
-.button-login-child {
+  }
+  .button-login-child {
     position: absolute;
     height: 100%;
     width: 100%;
@@ -113,8 +112,8 @@ body {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 58px;
     background: linear-gradient(180deg, #ffc57c, #fff2e2);
-}
-.sign-up1 {
+  }
+  .sign-up1 {
     position: absolute;
     width: 58.14%;
     top: 20%;
@@ -122,31 +121,31 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-.button-login {
+  }
+  .button-login {
     position: absolute;
     top: 38px;
     left: 1082px;
     backdrop-filter: blur(10px);
     width: 129px;
     height: 45px;
-}
-.user-profile-icon {
+  }
+  .user-profile-icon {
     position: absolute;
     top: 4px;
     left: 1317px;
     width: 100px;
     height: 100px;
-}
-.b86e1ae6-866d-4a42-a27f-2b786a-icon {
+  }
+  .b86e1ae6-866d-4a42-a27f-2b786a-icon {
     position: absolute;
     top: 1731px;
     left: 1533px;
     width: 224px;
     height: 181px;
     overflow: hidden;
-}
-.ellipse-div {
+  }
+  .ellipse-div {
     position: absolute;
     top: 668px;
     left: -65px;
@@ -154,8 +153,8 @@ body {
     background: linear-gradient(204.7deg, #0011ff, rgba(0, 0, 0, 0.1));
     width: 200px;
     height: 200px;
-}
-.courses-section-child1 {
+  }
+  .courses-section-child1 {
     position: absolute;
     top: 172px;
     left: 1299px;
@@ -163,16 +162,16 @@ body {
     background: linear-gradient(129.37deg, #aff6bc, #66906e);
     width: 200px;
     height: 200px;
-}
-.course-vector-icon {
+  }
+  .course-vector-icon {
     position: absolute;
     top: 166px;
     left: 331px;
     border-radius: 89px;
     width: 705px;
     height: 622px;
-}
-.group-child {
+  }
+  .group-child {
     position: absolute;
     height: 31.32%;
     width: 23.09%;
@@ -183,8 +182,8 @@ body {
     max-width: 100%;
     overflow: hidden;
     max-height: 100%;
-}
-.course-covers-nutrition {
+  }
+  .course-covers-nutrition {
     position: absolute;
     top: 120px;
     left: 959px;
@@ -194,8 +193,8 @@ body {
     display: inline-block;
     width: 300px;
     height: 108px;
-}
-.group-item {
+  }
+  .group-item {
     position: absolute;
     height: 100%;
     width: 100%;
@@ -205,21 +204,21 @@ body {
     left: 0%;
     border-radius: 143.5px;
     background: linear-gradient(182.55deg, rgba(255, 255, 255, 0), rgba(248, 108, 255, 0.27) 45.4%, #f663fd);
-}
-.go-to-course {
+  }
+  .go-to-course {
     position: absolute;
     top: calc(50% - 19.5px);
     right: 0px;
-}
-.download-circle-duotone-line-icon {
+  }
+  .download-circle-duotone-line-icon {
     position: absolute;
     top: -7px;
     left: 0px;
     width: 60px;
     height: 60px;
     object-fit: contain;
-}
-.go-to-course-parent {
+  }
+  .go-to-course-parent {
     position: absolute;
     height: 17.07%;
     width: 62.62%;
@@ -234,16 +233,16 @@ body {
     box-sizing: border-box;
     overflow: hidden;
     opacity: 0.5;
-}
-.health-wellness {
+  }
+  .health-wellness {
     position: absolute;
     height: 15.33%;
     width: 65.1%;
     top: 8.01%;
     left: 16.83%;
     display: inline-block;
-}
-.rectangle-parent {
+  }
+  .rectangle-parent {
     position: absolute;
     height: 100%;
     width: 100%;
@@ -251,8 +250,8 @@ body {
     right: 0%;
     bottom: 0%;
     left: 0%;
-}
-.group-wrapper {
+  }
+  .group-wrapper {
     position: absolute;
     height: 30.37%;
     width: 30.7%;
@@ -260,8 +259,8 @@ body {
     right: 0.3%;
     bottom: 64.02%;
     left: 69%;
-}
-.geography-icon {
+  }
+  .geography-icon {
     position: absolute;
     height: 83.28%;
     width: 88.61%;
@@ -273,8 +272,8 @@ body {
     overflow: hidden;
     max-height: 100%;
     opacity: 0.5;
-}
-.geography {
+  }
+  .geography {
     position: absolute;
     height: 15.33%;
     width: 38.12%;
@@ -284,8 +283,8 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     display: inline-block;
-}
-.go-to-course-group {
+  }
+  .go-to-course-group {
     position: absolute;
     height: 16.38%;
     width: 62.13%;
@@ -300,15 +299,15 @@ body {
     box-sizing: border-box;
     overflow: hidden;
     opacity: 0.5;
-}
-.exploring-earths-landscapes {
+  }
+  .exploring-earths-landscapes {
     margin: 0;
-}
-.environments-and {
+  }
+  .environments-and {
     margin: 0;
     white-space: pre-wrap;
-}
-.exploring-earths-landscapes-container {
+  }
+  .exploring-earths-landscapes-container {
     position: absolute;
     height: 31.71%;
     width: 78.47%;
@@ -318,8 +317,8 @@ body {
     font-family: Inter;
     color: #fff6f6;
     display: inline-block;
-}
-.geography-parent {
+  }
+  .geography-parent {
     position: absolute;
     height: 30.37%;
     width: 30.7%;
@@ -327,8 +326,8 @@ body {
     right: 0%;
     bottom: 17.57%;
     left: 69.3%;
-}
-.my-courses-icon {
+  }
+  .my-courses-icon {
     position: absolute;
     height: 17.16%;
     width: 16.2%;
@@ -340,8 +339,8 @@ body {
     overflow: hidden;
     max-height: 100%;
     object-fit: cover;
-}
-.math-icon {
+  }
+  .math-icon {
     position: absolute;
     width: 30.7%;
     top: 562px;
@@ -354,16 +353,16 @@ body {
     object-fit: cover;
     opacity: 0.22;
     mix-blend-mode: hard-light;
-}
-.math {
+  }
+  .math {
     position: absolute;
     height: 15.33%;
     width: 20.05%;
     top: 13.24%;
     left: 39.85%;
     display: inline-block;
-}
-.learning-numbers-patterns-container {
+  }
+  .learning-numbers-patterns-container {
     position: absolute;
     height: 32.4%;
     width: 84.65%;
@@ -372,8 +371,8 @@ body {
     font-size: 20px;
     font-family: Kalnia;
     display: inline-block;
-}
-.rectangle-container {
+  }
+  .rectangle-container {
     position: absolute;
     height: 30.37%;
     width: 30.7%;
@@ -381,8 +380,8 @@ body {
     right: 69.3%;
     bottom: 10.48%;
     left: 0%;
-}
-.icon {
+  }
+  .icon {
     position: absolute;
     top: 0px;
     left: 57px;
@@ -391,8 +390,8 @@ body {
     height: 287px;
     object-fit: cover;
     opacity: 0.5;
-}
-.group-div {
+  }
+  .group-div {
     position: absolute;
     height: 98.63%;
     width: 100%;
@@ -400,18 +399,18 @@ body {
     right: 0%;
     bottom: 0%;
     left: 0%;
-}
-.communication-skill {
+  }
+  .communication-skill {
     position: absolute;
     top: 0px;
     left: 0px;
     width: 404px;
     height: 291px;
-}
-.h {
+  }
+  .h {
     font-size: 20px;
-}
-.child-communication-skills-container {
+  }
+  .child-communication-skills-container {
     position: absolute;
     top: 65px;
     left: 39px;
@@ -421,15 +420,15 @@ body {
     width: 338px;
     height: 129px;
     font-size: 16px;
-}
-.communication-skill-parent {
+  }
+  .communication-skill-parent {
     position: absolute;
     top: 654px;
     left: 477px;
     width: 404px;
     height: 291px;
-}
-.group-child2 {
+  }
+  .group-child2 {
     position: absolute;
     height: 100%;
     width: 100%;
@@ -439,8 +438,8 @@ body {
     left: 0%;
     border-radius: 143.5px;
     background: linear-gradient(182.55deg, rgba(255, 255, 255, 0), rgba(248, 108, 255, 0.27) 67.5%, #f663fd);
-}
-.studying-past-events-container {
+  }
+  .studying-past-events-container {
     position: absolute;
     height: 32.4%;
     width: 83.66%;
@@ -450,8 +449,8 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     display: inline-block;
-}
-.go-to-course-parent1 {
+  }
+  .go-to-course-parent1 {
     position: absolute;
     height: 17.07%;
     width: 62.62%;
@@ -468,15 +467,15 @@ body {
     opacity: 0.5;
     font-size: 32px;
     font-family: Jua;
-}
-.history {
+  }
+  .history {
     position: absolute;
     top: 38px;
     left: 150px;
     font-size: 32px;
     font-family: Jua;
-}
-.group-parent {
+  }
+  .group-parent {
     position: absolute;
     height: 30.37%;
     width: 30.7%;
@@ -486,8 +485,8 @@ body {
     left: 0%;
     font-size: 20px;
     font-family: Inter;
-}
-.group-icon {
+  }
+  .group-icon {
     position: absolute;
     height: 97.62%;
     width: 70.79%;
@@ -499,12 +498,12 @@ body {
     overflow: hidden;
     max-height: 100%;
     opacity: 0.5;
-}
-.p1 {
+  }
+  .p1 {
     margin: 0;
     font-size: 20px;
-}
-.practicing-respectful-body-container {
+  }
+  .practicing-respectful-body-container {
     position: absolute;
     height: 32.4%;
     width: 76.24%;
@@ -514,8 +513,8 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     display: inline-block;
-}
-.go-to-course-parent2 {
+  }
+  .go-to-course-parent2 {
     position: absolute;
     height: 15.68%;
     width: 61.63%;
@@ -530,15 +529,15 @@ body {
     opacity: 0.5;
     font-size: 32px;
     font-family: Jua;
-}
-.work-education {
+  }
+  .work-education {
     position: absolute;
     top: 38px;
     left: 93px;
     font-size: 32px;
     font-family: Jua;
-}
-.group-parent2 {
+  }
+  .group-parent2 {
     position: absolute;
     height: 97.62%;
     width: 100%;
@@ -546,8 +545,8 @@ body {
     right: 0%;
     bottom: 0%;
     left: 0%;
-}
-.group-parent1 {
+  }
+  .group-parent1 {
     position: absolute;
     height: 31.11%;
     width: 30.7%;
@@ -557,8 +556,8 @@ body {
     left: 35.71%;
     font-size: 24px;
     font-family: Inter;
-}
-.group-child4 {
+  }
+  .group-child4 {
     position: absolute;
     height: 30.37%;
     width: 26.84%;
@@ -569,8 +568,8 @@ body {
     max-width: 100%;
     overflow: hidden;
     max-height: 100%;
-}
-.course-vector-parent {
+  }
+  .course-vector-parent {
     position: absolute;
     top: 232px;
     left: 62px;
@@ -579,13 +578,13 @@ body {
     text-align: left;
     font-size: 32px;
     font-family: Jua;
-}
-.mentorship {
+  }
+  .mentorship {
     position: absolute;
     top: 75.07%;
     right: 21px;
-}
-.frame-child {
+  }
+  .frame-child {
     position: absolute;
     height: 74.5%;
     width: 100%;
@@ -596,15 +595,15 @@ body {
     max-width: 100%;
     overflow: hidden;
     max-height: 100%;
-}
-.frame-item {
+  }
+  .frame-item {
     position: absolute;
     top: 253px;
     left: 13px;
     width: 50px;
     height: 62px;
-}
-.mentorship-parent {
+  }
+  .mentorship-parent {
     position: absolute;
     top: 0px;
     right: 0px;
@@ -613,20 +612,20 @@ body {
     width: 311px;
     height: 353px;
     overflow: hidden;
-}
-.frame-wrapper {
+  }
+  .frame-wrapper {
     position: absolute;
     top: 0px;
     right: 0px;
     width: 311px;
     height: 353px;
-}
-.library {
+  }
+  .library {
     position: absolute;
     top: 0%;
     left: calc(50% - 19px);
-}
-.group-child5 {
+  }
+  .group-child5 {
     position: absolute;
     height: 100%;
     width: 28.49%;
@@ -637,16 +636,16 @@ body {
     max-width: 100%;
     overflow: hidden;
     max-height: 100%;
-}
-.library-parent {
+  }
+  .library-parent {
     position: absolute;
     height: 17.56%;
     top: 77.34%;
     bottom: 5.1%;
     left: calc(50% - 83.5px);
     width: 172px;
-}
-.group-parent4 {
+  }
+  .group-parent4 {
     position: absolute;
     top: 0px;
     left: 0px;
@@ -655,16 +654,16 @@ body {
     width: 311px;
     height: 353px;
     overflow: hidden;
-}
-.frame-container {
+  }
+  .frame-container {
     position: absolute;
     top: 0px;
     left: 0px;
     width: 311px;
     height: 353px;
     font-size: 36px;
-}
-.group-parent3 {
+  }
+  .group-parent3 {
     position: absolute;
     top: 1204px;
     right: 174px;
@@ -672,8 +671,8 @@ body {
     height: 353px;
     font-size: 32px;
     font-family: 'Annapurna SIL';
-}
-.courses-section {
+  }
+  .courses-section {
     width: 100%;
     position: relative;
     background: linear-gradient(89.1deg, rgba(218, 48, 104, 0.01) 0.44%, rgba(20, 70, 159, 0.9));
@@ -685,5 +684,26 @@ body {
     font-size: 24px;
     color: #000;
     font-family: Alice;
-}
-
+  }
+  .home:hover{
+    color: blue;
+    background: rgb(155, 155, 232);
+    cursor: pointer;
+  }
+  .sign-up:hover{
+    color: wheat;
+    background: rgb(155, 155, 232);
+    cursor: pointer;
+  }
+  .sign-up1:hover{
+    color: wheat;
+    background: rgb(155, 155, 232);
+    cursor: pointer;
+  }
+  .go-to-course{
+    cursor: pointer;
+  }
+  .go-to-course:hover{
+    color: black;
+    background: rgb(84, 84, 233);
+  }
